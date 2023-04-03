@@ -10,12 +10,14 @@ import { getNodes, getNodesLoadingStatus } from "../../store/nodes";
 import ModalWindow from "../common/modalWindow";
 import LessonsList from "../ui/lessonList";
 import TagsList from "../ui/tagsList";
+import nodes from "../../store/nodes.json";
 
 function Tree() {
   // const sections = useSelector(getSections());
   // const sectionsStatusLoading = useSelector(getSectionsLoadingStatus());
-  const nodes = useSelector(getNodes());
-  const nodesStatusLoading = useSelector(getNodesLoadingStatus());
+  // const nodes = useSelector(getNodes());
+  // const nodesStatusLoading = useSelector(getNodesLoadingStatus());
+  const nodesStatusLoading = false;
   const [modalShow, setModalShow] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState({});
