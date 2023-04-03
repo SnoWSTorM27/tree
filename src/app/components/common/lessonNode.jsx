@@ -1,0 +1,41 @@
+import React, { memo } from "react";
+import PropTypes from "prop-types";
+import { Handle, Position } from "reactflow";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Tooltip from "react-bootstrap/Tooltip";
+import leaf from "../../assets/leaf.svg";
+
+function LessonNode({ data }) {
+  return (
+    <OverlayTrigger
+      placement="top"
+      overlay={
+        <Tooltip id="tooltip-top">
+          <strong>{data.name}</strong>
+        </Tooltip>
+      }
+    >
+      <div className="d-flex justify-content-center align-items-center">
+        {/* <span style={{ fontSize: "10px" }}>{data.name}</span> */}
+        <svg
+          className="react-flow__node-leaf-img"
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          id="mdi-leaf"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z" />
+        </svg>
+        {/* <Handle type="target" position={Position.Top} className="w-16 bg-green" /> */}
+        {/* <Handle type="source" position={Position.Bottom} className="w-16 bg-success" /> */}
+      </div>
+    </OverlayTrigger>
+  );
+}
+LessonNode.propTypes = {
+  data: PropTypes.object
+};
+
+export default memo(LessonNode);

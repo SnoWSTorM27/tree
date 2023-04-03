@@ -1,0 +1,89 @@
+html,
+body,
+#root,
+.tree {
+  height: 100%;
+}
+
+.tree {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* .react-flow__node:not(hover) {
+  opacity: 0.7;
+}
+.react-flow__node:selected {
+  opacity: 1;
+} */
+.react-flow__node-section, .react-flow__node-subsection, .react-flow__node-physics {
+  border: 1px solid #754d1b;
+  background-color: white;
+  border-radius: .5rem;
+}
+.react-flow__node-lesson {
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  /* border: 1px solid green;  */
+}
+.completed {
+  color:#fff;
+  background-color: rgb(237, 250, 59);
+}
+.react-flow__handle-top,
+.react-flow__handle-bottom {
+  background: #754d1b;
+}
+.react-flow__edge-path {
+  stroke: currentColor;
+  stroke-width: 3px;
+}
+.react-flow__edge {
+  color: #754d1b;
+}
+g .react-flow__edge:nth-child(13) {
+  color: red;
+}
+g .react-flow__edge:nth-child(1) {
+  color: orange;
+}
+g .react-flow__edge:nth-child(2) {
+  color: yellow;
+}
+g .react-flow__edge:nth-child(3) {
+  color: green;
+}
+g .react-flow__edge:nth-child(4) {
+  color: lightskyblue;
+}
+g .react-flow__edge:nth-child(5) {
+  color: blue;
+}
+g .react-flow__edge:nth-child(12) {
+  color: purple;
+}
+.react-flow__handle {
+  border: none;
+}
+
+.react-flow__node-leaf-img {
+  width: 1rem;
+  height: 1rem;
+  color:green;
+  fill: currentColor;
+  transform: rotate(-25deg);
+}
+
+.save__controls {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 4;
+  font-size: 12px;
+}
+
+.save__controls button {
+  margin-left: 5px;
+}

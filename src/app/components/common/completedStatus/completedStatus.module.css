@@ -1,0 +1,18 @@
+.completed-lesson {
+  color: #1da34e;
+  margin-right: 0.2rem;
+  font-size:x-small;
+  text-align: center;
+}
+.completed-icon {
+  color: #1da34e;
+}
+.completed-lesson-false {
+  color: #e64225;
+  margin-right: 0.2rem;
+  font-size:x-small;
+  text-align: center;
+}
+.completed-icon-false {
+  color: #e64225;
+}
