@@ -20,7 +20,7 @@ const AppLoader = ({ children }) => {
     // if (!nodesDataStatus) dispatch(loadNodesList());
     // if (!lessonsDataStatus) dispatch(loadLessonsList());
   }, [sectionsDataStatus, nodesDataStatus]);
-  if (sectionsStatusLoading) return <Loader />;
+  // if (sectionsStatusLoading) return <Loader />;
 
   return children;
 };
