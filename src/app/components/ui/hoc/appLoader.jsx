@@ -2,25 +2,19 @@ import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "../../common/loader";
-import {
-  getSectionsDataStatus,
-  getSectionsLoadingStatus,
-  loadSectionsList
-} from "../../../store/sections";
-import { getNodesDataStatus, loadNodesList } from "../../../store/nodes";
+import { getNodesDataStatus, getNodesLoadingStatus, loadNodesList } from "../../../store/nodes";
 
 const AppLoader = ({ children }) => {
   const dispatch = useDispatch();
-  const sectionsDataStatus = useSelector(getSectionsDataStatus());
   const nodesDataStatus = useSelector(getNodesDataStatus());
-  const sectionsStatusLoading = useSelector(getSectionsLoadingStatus());
+  const nodesStatusLoading = useSelector(getNodesLoadingStatus());
 
   useEffect(() => {
     // if (!sectionsDataStatus) dispatch(loadSectionsList());
-    // if (!nodesDataStatus) dispatch(loadNodesList());
+    if (!nodesDataStatus) dispatch(loadNodesList());
     // if (!lessonsDataStatus) dispatch(loadLessonsList());
-  }, [sectionsDataStatus, nodesDataStatus]);
-  // if (sectionsStatusLoading) return <Loader />;
+  }, [nodesDataStatus]);
+  if (nodesStatusLoading) return <Loader />;
 
   return children;
 };

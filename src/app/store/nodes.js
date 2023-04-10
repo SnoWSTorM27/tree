@@ -1,11 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 import nodeService from "../services/node.service";
-import nds from "./nodes.json";
+// import nds from "./response.json";
 
 const nodesSlice = createSlice({
   name: "nodes",
   initialState: {
-    entities: nds,
+    entities: null,
     isLoading: true,
     error: null,
     dataLoaded: false
@@ -22,12 +22,24 @@ const nodesSlice = createSlice({
     nodesRequestFailed: (state, action) => {
       state.error = action.payload;
       state.isLoading = false;
+    },
+    nodesUpdateRequested: (state) => {
+      state.isLoading = true;
+    },
+    nodesUpdated: (state, action) => {
+      state.entities = action.payload;
+      state.dataLoaded = true;
+      state.isLoading = false;
+    },
+    nodesUpdateFailed: (state, action) => {
+      state.error = action.payload;
+      state.isLoading = false;
     }
   }
 });
 
 const { actions, reducer: nodesReducer } = nodesSlice;
-const { nodesRequested, nodesReceived, nodesRequestFailed } = actions;
+const { nodesRequested, nodesReceived, nodesRequestFailed, nodesUpdateRequested, nodesUpdated, nodesUpdateFailed } = actions;
 
 export const loadNodesList = () => async (dispatch, getState) => {
   dispatch(nodesRequested());
@@ -36,6 +48,15 @@ export const loadNodesList = () => async (dispatch, getState) => {
     dispatch(nodesReceived(content));
   } catch (error) {
     dispatch(nodesRequestFailed(error.message));
+  }
+};
+export const updateNodesList = (payload) => async (dispatch, getState) => {
+  dispatch(nodesUpdateRequested());
+  try {
+    const { content } = await nodeService.update({ items: payload });
+    dispatch(nodesUpdated(payload));
+  } catch (error) {
+    dispatch(nodesUpdateFailed(error.message));
   }
 };
 

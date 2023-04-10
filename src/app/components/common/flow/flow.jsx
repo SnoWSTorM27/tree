@@ -1,5 +1,6 @@
 import React, { useCallback, useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import { useDispatch } from "react-redux";
 import ReactFlow, {
   addEdge,
   MiniMap,
@@ -24,6 +25,8 @@ import "./flow.css";
 import PhysicsNode from "../physicsNode";
 import { transformToNodes } from "../../../utils/transformToNodes";
 import { transformToEdges } from "../../../utils/transformToEdges";
+import { transformForResponse } from "../../../utils/transformForResponse";
+import { updateNodesList } from "../../../store/nodes";
 
 const nodeTypes = {
   section: SectionNode,
@@ -78,6 +81,7 @@ const onInit = (reactFlowInstance) =>
   console.log("flow loaded:", reactFlowInstance);
 
 const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
+  const dispatch = useDispatch();
   const initialNodes = transformToNodes(sections);
   const countLessons = initialNodes.filter(node => node.type === "lesson").length;
   const edges1 = transformToEdges(sections, "1");
@@ -101,7 +105,11 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   const onSave = useCallback(() => {
     if (rfInstance) {
       const flow = rfInstance.toObject();
-      console.log(flow);
+      const nodes = flow.nodes;
+      console.log(nodes);
+      const response = transformForResponse(sections, nodes);
+      console.log(response);
+      dispatch(updateNodesList(response));
       localStorage.setItem(flowKey, JSON.stringify(flow));
     }
   }, [rfInstance]);
@@ -129,10 +137,10 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     setNodes((nds) => nds.map(blur(search)));
     setEdges((eds) => eds.map(blur(search)));
   }, [search]);
-  useEffect(() => {
-    setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
-    setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
-  }, [filteredLessons]);
+  // useEffect(() => {
+  //   setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
+  //   setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
+  // }, [filteredLessons]);
 
   const handleClick = (e, node) => {
     // if (node.id === "2") {

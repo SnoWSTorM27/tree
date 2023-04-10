@@ -1,0 +1,7946 @@
+[
+  {
+  "id": "lesson_2",
+  "name": "Весы Роберваля",
+  "position": {
+  "x": 123,
+  "y": 123
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "SeNQYcGKEsU",
+  "description": "Весы Роберваля"
+  },
+  "tags": "жиль, роберваль,1669,плечо, сила, масса"
+  },
+  {
+  "id": "lesson_3",
+  "name": "Загадка падающей цепочки",
+  "position": {
+  "x": 70,
+  "y": 60
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "3lhpFR66xHQ",
+  "description": "Загадка падающей цепочки"
+  },
+  "tags": "галилео, галилей,,цепь, цепочка, шар, шарик, ускорение, падение, падения, сила, тяжести, g, сопротивление, блок, скорость, импульс, плотность, масса, расстояние, закон, сохранения, энергии, шайба, нить, груз"
+  },
+  {
+  "id": "lesson_4",
+  "name": "Физика караванных стоянок",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "tLdHu1gjULI",
+  "description": "Физика караванных стоянок"
+  },
+  "tags": "датский, йенс, хёйруп, хойруп, дерек, маллер, малер, герц,,напряжение, переменный, ток, магнит, магнитное, переменное, электрическое, поле, частота, герц, радиоволна, магнитная, проницаемость"
+  },
+  {
+  "id": "lesson_5",
+  "name": "Шарик на горке",
+  "position": {
+  "x": 11,
+  "y": 11
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "4L7iXMZk7v0",
+  "description": "Шарик на горке"
+  },
+  "tags": ",,шарик, шар, горка, окружность, g, сила, тяжести, реакции, опоры, косинус, ускорение, реакции, порабола, закон, сохранения, энергии, падение, потенциальная, вращательная, энергия, высота, радиус, траектория, отрыв"
+  },
+  {
+  "id": "lesson_6",
+  "name": "Фермы и мосты",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "tvQkmW-5WS4",
+  "description": "Фермы и мосты"
+  },
+  "tags": "ньютон,,опора, сила, сжатие, растяжение, рекциии, опоры, стержень, арка, вес"
+  },
+  {
+  "id": "lesson_7",
+  "name": "Скорость звука в тонком стержне",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "XBMr4WGT5rY",
+  "description": "Скорость звука в тонком стержне"
+  },
+  "tags": ",,скорость, напряжение, модульюнга, плотность, звук, волна, длинна, диаметр, частота, герц"
+  },
+  {
+  "id": "lesson_8",
+  "name": "Закон Бернулли",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "Qdr6pyQELz4",
+  "description": "Закон Бернулли"
+  },
+  "tags": "бернулли, ньютон, вентури,,поток, струя, газ, жидкость, давление, скорость, работа, объем, кинетическая, энергия,"
+  },
+  {
+  "id": "lesson_9",
+  "name": "Физика приливов ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_4",
+  "video": {
+  "codeVideo": "LvkupvFqIp0",
+  "description": "Физика приливов ● 4"
+  },
+  "tags": "кориолис, шулейкин,,прилив, отлив, сила, груз, масса, радиус, ускорение, падение, тело, тяжести, сжатие, растяжение, орбита, поле, гравитация, гравитационное, центр, масс, гравитация, g, диаметр, волна, длинна, колебание, частота, противофаза, трение"
+  },
+  {
+  "id": "lesson_10",
+  "name": "Парадокс сужающейся трубы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "MVExyWHZYKs",
+  "description": "Парадокс сужающейся трубы"
+  },
+  "tags": ",,поток, реактивный, двигатель, струя, давление, атмосфепное, ускорение, сечение, торможение, трение, паскаль,"
+  },
+  {
+  "id": "lesson_11",
+  "name": "Математические предсказания в физике",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "GBUcHreEFe4",
+  "description": "Математические предсказания в физике"
+  },
+  "tags": "юджин, вигнер, максвелл, фарадей,,скорость, ускорение, время, расстояние, g, равноускоренное, движение, перемещение, электрическое, поле, заряд, магнитный, индукция, электрический, заряд, ток, волна, вакуум"
+  },
+  {
+  "id": "lesson_12",
+  "name": "Равноускоренное движение ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "iu6foUz-XQ8",
+  "description": "Равноускоренное движение ● 2"
+  },
+  "tags": "орем, галилей, ньютон,XIV, XVII,равномерное, равноускоренное, движение, свободное, падение, сила, тяжести, скорость, расстояние, ускорение, перемещение, время, порабола, g"
+  },
+  {
+  "id": "lesson_13",
+  "name": "Парадокс изогнутой трубы ● 5",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "R80cV8pryOM",
+  "description": "Парадокс изогнутой трубы ● 5"
+  },
+  "tags": "навье, стокс,,движение, скорость, сила, центростпемительная, радиус, давление, закон, сохранения, энергии, безвихревое, теченеие, жидкости, сечение, эдектрический, ток, напряжение, плотность, электрическое, поле, вольт, магнитное, поле, проводник, дивергенция, ротор, вязкость, вихрь, воздух, паскаль"
+  },
+  {
+  "id": "lesson_14",
+  "name": "Электродвигатель на подшипниках ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "__fhgxbjcCk",
+  "description": "Электродвигатель на подшипниках ● 1"
+  },
+  "tags": "нетушил, поливанов, стефан, маринов, косарев, рябко, вельман,,1963, 2013,напряжение, вольт, ампер, вращение, работа, плазменный, разряд, ток, магнитное, поле, частота, разгоняющий, момент, сила, трения, герц, тепловое, расширение, волна,"
+  },
+  {
+  "id": "lesson_15",
+  "name": "Физика турбореактивного двигателя",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "d8nDAMZI1l8",
+  "description": "Физика турбореактивного двигателя"
+  },
+  "tags": "негода, хокинг, ньютон,,,реактивная, тяга, сопло, струя, атомная, энергия, газ, воспламенение, скорость, 2 закон, мощность, кпд, сила, кинетическая,"
+  },
+  {
+  "id": "lesson_16",
+  "name": "Равноускоренное движение ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "GXIFdxnzZao",
+  "description": "Равноускоренное движение ● 3"
+  },
+  "tags": ",,теорема, средней, скорости, движение, равназамедленное, равноускоренное, скорости, путь, ускорение,"
+  },
+  {
+  "id": "lesson_17",
+  "name": "Закон Кулона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "MkzSElu6fMI",
+  "description": "Закон Кулона"
+  },
+  "tags": "кулон,,электрический, заряд, расстояние, сила, закон, кулона, напряжение, вольт"
+  },
+  {
+  "id": "lesson_18",
+  "name": "Потенциальная и кинетическая энергия",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "wWerswH8w6g",
+  "description": "Потенциальная и кинетическая энергия"
+  },
+  "tags": "джоуль, максвелл,XIX,закон, сохранения, энергии, электрическая, тепловая, кинетическая, энергия, звуковая, волна, потенциальная, механическая, работа, сила, вес, g, равноускоренное, движение, ньютон, вращения, поступательное, вольт"
+  },
+  {
+  "id": "lesson_19",
+  "name": "Как работает трансформатор?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "v52to2Ixwjs",
+  "description": "Как работает трансформатор?"
+  },
+  "tags": "фуко, тихомиров,,напряжение, цепь, переменный, ток, энергия, потеря, сопротивление, ом, закон, индуктивное, перемагничивание, индуктивность, магнитное, поле, закон, электромагнитной, индукции, эдс, электродвижущая, скорость, магнитный, поток, вольт, киловольт, мощность, рессеиваемой, нагрузки, электротехника,"
+  },
+  {
+  "id": "lesson_20",
+  "name": "Капельница Кельвина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "TB-S9BKiZ8Y",
+  "description": "Капельница Кельвина"
+  },
+  "tags": "фуко, тихомиров,,напряжение, цепь, переменный, ток, энергия, потеря, сопротивление, ом, закон, индуктивное, перемагничивание, индуктивность, магнитное, поле, закон, электромагнитной, индукции, эдс, электродвижущая, скорость, магнитный, поток, вольт, киловольт, мощность, рессеиваемой, нагрузки, электротехника,"
+  },
+  {
+  "id": "lesson_21",
+  "name": "Физика кипящего чайника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "l3wngkziwxA",
+  "description": "Физика кипящего чайника"
+  },
+  "tags": "кельвин, томсон,1867,напряжение, электрический, заряд, работа, g, сила тяжести, разность, потенциалов"
+  },
+  {
+  "id": "lesson_22",
+  "name": "Как летает автожир?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "cLR-LnXjnP4",
+  "description": "Как летает автожир?"
+  },
+  "tags": "сьерва, сиерва, хуан, игорь, бенсен, джеймс, бонд,1923,винт, ротор, пропеллер, дигатель, поток, воздух, подъемная, сила, лопасть, скорость, тяжести, g, сопротивления, момент, угол, авторотация, аэродинамическая, угол, атаки, сипротивление, ось, вращение,"
+  },
+  {
+  "id": "lesson_23",
+  "name": "Влажность воздуха",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "DaZ8XVDTeyk",
+  "description": "Влажность воздуха"
+  },
+  "tags": ",,относительная, влажность, воздух, вода, водяной, пар, молекула, испарение, давление, насыщеных, паров"
+  },
+  {
+  "id": "lesson_24",
+  "name": "Скорость передачи удара вдоль поезда",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "36S_gX8IO5c",
+  "description": "Скорость передачи удара вдоль поезда"
+  },
+  "tags": "маковецкий,,волна, скорость, распостранение, удара, толчка, света, парадокс, звуковая, звук, металл, деформация"
+  },
+  {
+  "id": "lesson_25",
+  "name": "Точность и погрешность измерений",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "qzhLGyFT-CI",
+  "description": "Точность и погрешность измерений"
+  },
+  "tags": ",,сила, тока, ток, периметр, площадь, точность, погрешность, диаметр, высота, измерение"
+  },
+  {
+  "id": "lesson_26",
+  "name": "Самоцентрирующаяся ременная передача",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "CQ5HFBrWV1I",
+  "description": "Самоцентрирующаяся ременная передача"
+  },
+  "tags": ",,работа, вращение, растяжение"
+  },
+  {
+  "id": "lesson_27",
+  "name": "Сопло Лаваля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "n0VrShPVP5o",
+  "description": "Сопло Лаваля"
+  },
+  "tags": "густав, лаваль, бернулли,,сверхзвуковая, скорость, звука, масса, поток, плотность, жидкость, газ, кинетическая, потенциальная, энергия, адиабата, давление, тепловое, движение, эффективность, сила, рекции"
+  },
+  {
+  "id": "lesson_28",
+  "name": "Как измерили расстояние до Солнца?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "qh9Bz9APr8k",
+  "description": "Как измерили расстояние до Солнца?"
+  },
+  "tags": "аристарх, самосский, джеймс, кук, михаил, михайло, ломоносов,,1761, 1769, 2004, 2012,расстояние, астрономическая, единица, параллакс, диаметр"
+  },
+  {
+  "id": "lesson_29",
+  "name": "Физика прямоточного двигателя",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "zjc-WzGfOU0",
+  "description": "Физика прямоточного двигателя"
+  },
+  "tags": "ледюк, густав, лаваль, эрнст, мах,,воздух, давление, сжатие, адиабата, скорость, звука, сверхзвуковой, дозвуковой, кпд, конус, маха"
+  },
+  {
+  "id": "lesson_30",
+  "name": "Да пребудет с нами сила Лоренца!",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_8",
+  "video": {
+  "codeVideo": "5SLllCvXj9Q",
+  "description": "Да пребудет с нами сила Лоренца!"
+  },
+  "tags": "хендрик, лоренц, эрстед, эрстэд, ампер, фарадей,,электромагнитная, индукция, электрический, ток, производство, передача, потребление, электрическая, энергия, сила, лоренца, ампера, скорость, правило, буравчика, эдс, противоэдс, свободный, заряд, работа, рычаг, золотое, механики"
+  },
+  {
+  "id": "lesson_31",
+  "name": "Теплопроводность",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "lVCbOU2vSu8",
+  "description": "Теплопроводность"
+  },
+  "tags": ",,удельная, теплоемкость, теплопроводность, температура, плавления, тепловая, энергия"
+  },
+  {
+  "id": "lesson_32",
+  "name": "Как работает радиоуглеродный метод?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "XyIM6ySLNnQ",
+  "description": "Как работает радиоуглеродный метод?"
+  },
+  "tags": "роберт, хейзен, уиллард, франк, либби,1988, 1350,углерод, изотоп, газ, радиоактивный, азот, нейтрон, протон, ядро, распад, полураспад,"
+  },
+  {
+  "id": "lesson_33",
+  "name": "Катушка индуктивности в цепи переменного тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "vu1sKl7hNBI",
+  "description": "Катушка индуктивности в цепи переменного тока"
+  },
+  "tags": ",,сопротивление, переменное, напряжение, герц, сила, тока, ток, постоянный, электрический, макгнитный, эдс, индукция, амплитуда, поток, скорость, последовательное, частота, фаза"
+  },
+  {
+  "id": "lesson_34",
+  "name": "Задача о пьяном матросе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "tbtxIaesg2I",
+  "description": "Задача о пьяном матросе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_35",
+  "name": "Магнитная пушка и законы механики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "Y6ANFGuhIyo",
+  "description": "Магнитная пушка и законы механики"
+  },
+  "tags": "ньютон,2012,кинетическая, энергия, магнитного, поля, закон, сохранения, энергии, импульса, импульс, скорость, сила,"
+  },
+  {
+  "id": "lesson_36",
+  "name": "Угловая скорость и радианная мера угла",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "bHciwzIBRRk",
+  "description": "Угловая скорость и радианная мера угла"
+  },
+  "tags": ",,окружность, радиус, пи, радиан, дуга, градус, длина, катет, синус, частота, вращение, скорость, угол, угловая, вращения, период, напряжение"
+  },
+  {
+  "id": "lesson_37",
+  "name": "Зачем нужен сердечник в трансформаторе?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "cZu3xioNP7U",
+  "description": "Зачем нужен сердечник в трансформаторе?"
+  },
+  "tags": ",,магнитный, поток, ток, напряжение, герц, вольт, амплитуда, индуктивность, проницакмость, первичная, обмотка, омическое, индуктивное, активное, сопротивление, эдс, частота, поле, магнитное"
+  },
+  {
+  "id": "lesson_38",
+  "name": "Мои искусственные хрусталики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_9",
+  "video": {
+  "codeVideo": "ufezGdZf8dI",
+  "description": "Мои искусственные хрусталики"
+  },
+  "tags": "гарольд, ридли, френель,,оптическая, сила, рефракционный, дифракционный, двухфокусный, трехфокусный, фокус, сфера, радиус, волна, зона, френеля, противофаза, энергия, сдвиг, фазы, плоска, волна, сферическая, рефракция, дифракция, диоптрия, фаза, мультифокальный, аккомодация, бифокальный"
+  },
+  {
+  "id": "lesson_39",
+  "name": "Атмосферное давление",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "fAKJIRKx6JU",
+  "description": "Атмосферное давление"
+  },
+  "tags": "галилео, галилей, эванджелиста, торричелли, отто, фон, герике, паскаль,,давление, атмосфера, атмосферное, плотность, ртутный, столб, паскаль, килопаскаль, бар,"
+  },
+  {
+  "id": "lesson_40",
+  "name": "Сила Ампера",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "ekxO7rL6FlQ",
+  "description": "Сила Ампера"
+  },
+  "tags": ",,сила, ампера, магнитное, поле, северный, южный, полюс, ток, полярность, правило, буравчика, правой, левой, руки, вектор, лоренца, заряд, электрон, кристаллическая, решетка, работа"
+  },
+  {
+  "id": "lesson_41",
+  "name": "Температура и её измерение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "ON8YRdSx-4U",
+  "description": "Температура и её измерение"
+  },
+  "tags": "цельсий, андрес, фарингейт, габриэль,,тело, энергия, тепловое, движение, кинетическая, электромагнитная, волна, инфракрасное, излучение"
+  },
+  {
+  "id": "lesson_42",
+  "name": "Сила Кориолиса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "OAs_1ysRHW0",
+  "description": "Сила Кориолиса"
+  },
+  "tags": "гаспар, гюстав, кориолис, архимед,,вращение, инерция, эффект, прямолинейное, движение, вращательное, угол, расстояние, траектория, спираль, архимеда, ускорение, сила, центробежная, давление"
+  },
+  {
+  "id": "lesson_43",
+  "name": "Солевые пальцы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "4rAJNQ4Udp4",
+  "description": "Солевые пальцы"
+  },
+  "tags": ",,плотность, диффузия, двойная, тёплый, холодный, центр, тяжести, энергия"
+  },
+  {
+  "id": "lesson_44",
+  "name": "Как Эратосфен измерил диаметр Земли?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "knZAS1JAbXA",
+  "description": "Как Эратосфен измерил диаметр Земли?"
+  },
+  "tags": "пифагор, аристотель, эратосфен, киренский, алексанндрия, сиена,,тень, центр, угол, дуга, окружность, стадия"
+  },
+  {
+  "id": "lesson_45",
+  "name": "Физика приливов ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "sOT9BvAO0Ec",
+  "description": "Физика приливов ● 1"
+  },
+  "tags": "исаак, ньютон,,,всемирное, тяготение, падение, масса, гравитация, вращение, трение, придивная, сила, радиус, высота, притяжение, сизигия, квадратура"
+  },
+  {
+  "id": "lesson_46",
+  "name": "Закон Архимеда ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "tH1H8CCfzts",
+  "description": "Закон Архимеда ● 1"
+  },
+  "tags": "архимед, гиерон II,,ньютон, вес, сила, масса, g, архимеда, закон, плотность"
+  },
+  {
+  "id": "lesson_47",
+  "name": "Где хранится заряд в конденсаторе ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "ei9pNA5FFn8",
+  "description": "Где хранится заряд в конденсаторе ● 3"
+  },
+  "tags": "бенджамин, франклин,XVIII,заряд, разряд, искра, электрический, ток, коронный, диэлектрик, проводник, электрет"
+  },
+  {
+  "id": "lesson_48",
+  "name": "Интерференция света на двух щелях ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_13",
+  "video": {
+  "codeVideo": "ZV-cxdCul2U",
+  "description": "Интерференция света на двух щелях ● 1"
+  },
+  "tags": "томас, юнг, рене, декарт, исаак, ньютон, кристиан, гюйгенс, христиан,1803,световой, пучок, источник, световая, волна, амплитуда, расстояние, фаза, катет, гипотенуза, длина"
+  },
+  {
+  "id": "lesson_49",
+  "name": "Физика бумажного самолётика",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_14",
+  "video": {
+  "codeVideo": "8KmqRGlQ3nE",
+  "description": "Физика бумажного самолётика"
+  },
+  "tags": "валерий, чкалов,,глиссада, сила, подъемная, угол, атаки, лобовое, лобового, сопротивления, аэродинамическая, сопротивление, катет, силовой, треугольник, прямолинейное, равномерное, движение, плоскость, крыла, давление, проекция"
+  },
+  {
+  "id": "lesson_50",
+  "name": "Первый закон Ньютона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_14",
+  "video": {
+  "codeVideo": "03jGtr_dA4g",
+  "description": "Первый закон Ньютона"
+  },
+  "tags": "исаак, ньютон,,тело, состояние, покоя, равномерное, прямолинейное, движение, сила, скольжение, векторная, сумма, g, упругости, тяжести, трения, трение, электрический, ток, магнитный, тормоз"
+  },
+  {
+  "id": "lesson_51",
+  "name": "Эффект Коанда ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_14",
+  "video": {
+  "codeVideo": "te5ziZcnU_w",
+  "description": "Эффект Коанда ● 1"
+  },
+  "tags": "анри, коандэ, коанда,,воздушный, поток, эффект, коанды, магнуса, вентури, струя, вязкость, трение, атмосферное, давление, разность, давления, отклонение, вязкое, трение, реактивная, тяга, подъемная, сила, третий, закон, ньютона, принцип, закон, бернулли, пристаеночное, течение"
+  },
+  {
+  "id": "lesson_52",
+  "name": "Момент силы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_14",
+  "video": {
+  "codeVideo": "BUNQWBwiQYE",
+  "description": "Момент силы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_53",
+  "name": "Радиоактивный распад не имеет памяти",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_15",
+  "video": {
+  "codeVideo": "YbQKKjKH2SM",
+  "description": "Радиоактивный распад не имеет памяти"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_54",
+  "name": "Как работает тиристор?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_15",
+  "video": {
+  "codeVideo": "li_XJCw_MCs",
+  "description": "Как работает тиристор?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_55",
+  "name": "Аномальные свойства воды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_15",
+  "video": {
+  "codeVideo": "vpI5jACSROY",
+  "description": "Аномальные свойства воды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_56",
+  "name": "Как скоро загорится лампа?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_15",
+  "video": {
+  "codeVideo": "OSkudhqU3Ck",
+  "description": "Как скоро загорится лампа?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_57",
+  "name": "За счёт чего сифон перекачивает воду?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_15",
+  "video": {
+  "codeVideo": "RrPdylj5NJ8",
+  "description": "За счёт чего сифон перекачивает воду?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_58",
+  "name": "Трубка Пито и скоростной напор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_16",
+  "video": {
+  "codeVideo": "F2x7MEJnVjk",
+  "description": "Трубка Пито и скоростной напор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_59",
+  "name": "Измерение физических величин",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_16",
+  "video": {
+  "codeVideo": "RsJ_kSQ3FeI",
+  "description": "Измерение физических величин"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_60",
+  "name": "Балка на трёх опорах",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_16",
+  "video": {
+  "codeVideo": "0hTqugEsbSg",
+  "description": "Балка на трёх опорах"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_61",
+  "name": "Скорость звука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_16",
+  "video": {
+  "codeVideo": "Hwbdik9Z6U8",
+  "description": "Скорость звука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_62",
+  "name": "Блок и ворот",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_17",
+  "video": {
+  "codeVideo": "B0y_wwbBcPU",
+  "description": "Блок и ворот"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_63",
+  "name": "Гидростатический парадокс",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "XBaCtA8PCeY",
+  "description": "Гидростатический парадокс"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_64",
+  "name": "Полиспаст",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "U587WkaTUeA",
+  "description": "Полиспаст"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_65",
+  "name": "Гироскоп",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "xxJnwBW2uXw",
+  "description": "Гироскоп"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_66",
+  "name": "Электрические заряды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "ACIx8Rk7Jo4",
+  "description": "Электрические заряды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_67",
+  "name": "Чудесная кружка Пифагора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "BiHCwKYbPxY",
+  "description": "Чудесная кружка Пифагора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_68",
+  "name": "Подъёмная сила крыла ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "QZQ9XObeL74",
+  "description": "Подъёмная сила крыла ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_69",
+  "name": "Пульсирующая тепловая трубка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "NKNYKW-PNyA",
+  "description": "Пульсирующая тепловая трубка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_70",
+  "name": "Коэффициент мощности \"косинус фи\"",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "4j4T9wyRAGQ",
+  "description": "Коэффициент мощности \"косинус фи\""
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_71",
+  "name": "Фонтан Герона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "069AoLwapxE",
+  "description": "Фонтан Герона"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_72",
+  "name": "Паровой удар",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "T_3tPpp2nrI",
+  "description": "Паровой удар"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_73",
+  "name": "Резонанс",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_18",
+  "video": {
+  "codeVideo": "nQaJloZD-xY",
+  "description": "Резонанс"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_74",
+  "name": "Инерция ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "YA8Pc5O_8sc",
+  "description": "Инерция ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_75",
+  "name": "Ионолёт",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "9PjcBv8GHyM",
+  "description": "Ионолёт"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_76",
+  "name": "Парадокс вытекающей воды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "eyrwSHc3fLc",
+  "description": "Парадокс вытекающей воды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_77",
+  "name": "Механика верёвочной петли ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "7sLdexp_FYY",
+  "description": "Механика верёвочной петли ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_78",
+  "name": "Почему вертолёты летают так медленно?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "f-rIigXtxiA",
+  "description": "Почему вертолёты летают так медленно?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_79",
+  "name": "Электролиз",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "SwNJwbU_lYU",
+  "description": "Электролиз"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_80",
+  "name": "Почему вечный двигатель невозможен?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "MYqJjre4Alo",
+  "description": "Почему вечный двигатель невозможен?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_81",
+  "name": "Закон рычага",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "2RPuG362_mI",
+  "description": "Закон рычага"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_82",
+  "name": "Задача про холодильник с открытой дверцей",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "3OfSVlTyZWY",
+  "description": "Задача про холодильник с открытой дверцей"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_83",
+  "name": "Форма Земли",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "I712Nji3h2Q",
+  "description": "Форма Земли"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_84",
+  "name": "Источники ультразвука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "wSl8A6QlZIY",
+  "description": "Источники ультразвука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_85",
+  "name": "Центробежная сила",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "1nBNjObM7XA",
+  "description": "Центробежная сила"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_86",
+  "name": "Как измерили расстояние до Луны ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "s6c4ZMSexkI",
+  "description": "Как измерили расстояние до Луны ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_87",
+  "name": "Второй закон Ньютона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "ljdSgWepkzU",
+  "description": "Второй закон Ньютона"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_88",
+  "name": "Момент инерции",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "XwTGp_z3G9I",
+  "description": "Момент инерции"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_89",
+  "name": "Гидростатическое давление",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "BAW3VVNnmGI",
+  "description": "Гидростатическое давление"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_90",
+  "name": "Закон Ома",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "iyR4Nt7Twg4",
+  "description": "Закон Ома"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_91",
+  "name": "Задача о цистерне",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "HNjHNpMeriE",
+  "description": "Задача о цистерне"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_92",
+  "name": "Электродвигатель на подшипниках ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "nVCD1TqQBjc",
+  "description": "Электродвигатель на подшипниках ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_93",
+  "name": "Как магнитное поле назвали магнитной индукцией",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "DKqmyn6ugpw",
+  "description": "Как магнитное поле назвали магнитной индукцией"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_94",
+  "name": "Клапан Теслы: почему он не работает?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "AcZojFhl_zA",
+  "description": "Клапан Теслы: почему он не работает?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_95",
+  "name": "Реактивное движение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "njCpRXh5O2U",
+  "description": "Реактивное движение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_96",
+  "name": "Закон всемирного тяготения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "R6lKFbM9FzQ",
+  "description": "Закон всемирного тяготения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_97",
+  "name": "Свободное падение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "1dlnCyCNL8g",
+  "description": "Свободное падение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_98",
+  "name": "Поляризация света и закон Малюса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "L3Hbr_ObTn0",
+  "description": "Поляризация света и закон Малюса"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_99",
+  "name": "Акустическая левитация ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "Rvm6C7z7IgQ",
+  "description": "Акустическая левитация ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_100",
+  "name": "Давление. Единицы давления",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "RLQYlMl8TGQ",
+  "description": "Давление. Единицы давления"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_101",
+  "name": "Капиллярный эффект",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_20",
+  "video": {
+  "codeVideo": "c6-qRmYDf54",
+  "description": "Капиллярный эффект"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_102",
+  "name": "Конденсатор в цепи переменного тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "sCdYxwld3aA",
+  "description": "Конденсатор в цепи переменного тока"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_103",
+  "name": "Физика приливов ● 5",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "kLuuT5CbGV4",
+  "description": "Физика приливов ● 5"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_104",
+  "name": "Двойной маятник и динамический хаос ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "3HDtZo8OmSU",
+  "description": "Двойной маятник и динамический хаос ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_105",
+  "name": "Электродвигатель на батарейке",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "pfvNSfdpJeI",
+  "description": "Электродвигатель на батарейке"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_106",
+  "name": "Дисперсия и спектр света",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "4E1AxUMUz-g",
+  "description": "Дисперсия и спектр света"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_107",
+  "name": "Электрофорная машина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "ne94zVotvpQ",
+  "description": "Электрофорная машина"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_108",
+  "name": "Момент силы: почему его так назвали ?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "a03px2mTmnc",
+  "description": "Момент силы: почему его так назвали ?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_109",
+  "name": "Создаёт ли пламя горелки реактивную тягу?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "Ct0XdKjUgY4",
+  "description": "Создаёт ли пламя горелки реактивную тягу?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_110",
+  "name": "Силовые линии электрического поля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "DzhxrX117TU",
+  "description": "Силовые линии электрического поля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_111",
+  "name": "Тепловая машина Карно ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "a7pqOvBxsl0",
+  "description": "Тепловая машина Карно ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_112",
+  "name": "Когда переменный ток становится постоянным?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "BQOK_b9TsjE",
+  "description": "Когда переменный ток становится постоянным?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_113",
+  "name": "Загадки центробежного насоса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "YXEGdCony1M",
+  "description": "Загадки центробежного насоса"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_114",
+  "name": "Вращающееся седло ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "_XStWgi-Jfg",
+  "description": "Вращающееся седло ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_115",
+  "name": "Термоакустическая труба Рийке",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "IrAL52IzdNU",
+  "description": "Термоакустическая труба Рийке"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_116",
+  "name": "Механика верёвочной петли ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "qt6CtZ8E7G8",
+  "description": "Механика верёвочной петли ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_117",
+  "name": "Золотое правило механики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "3O0otKdrPWA",
+  "description": "Золотое правило механики"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_118",
+  "name": "Электродвижущая сила (ЭДС)",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "8GvuGCE9JQI",
+  "description": "Электродвижущая сила (ЭДС)"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_119",
+  "name": "Столкновение шаров на уголковом желобе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "-E1odA9st0M",
+  "description": "Столкновение шаров на уголковом желобе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_120",
+  "name": "Физика приливов ● 6",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "9wHESvcpXCQ",
+  "description": "Физика приливов ● 6"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_121",
+  "name": "Быстрее ветра и против ветра ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "h0RWvIyfsUM",
+  "description": "Быстрее ветра и против ветра ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_122",
+  "name": "Эффект Магнуса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "x35Xywi_BKI",
+  "description": "Эффект Магнуса"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_123",
+  "name": "От чего отталкивается снаряд в рельсотроне? ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "tdxSHEy7XTI",
+  "description": "От чего отталкивается снаряд в рельсотроне? ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_124",
+  "name": "Перекачка воды с помощью эрлифта",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "RR_foaqGhTQ",
+  "description": "Перекачка воды с помощью эрлифта"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_125",
+  "name": "Центр тяжести",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "Pt8Mb6i5ZeA",
+  "description": "Центр тяжести"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_126",
+  "name": "Закон Гука и сила упругости",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "Lc0Bfyyr4Ms",
+  "description": "Закон Гука и сила упругости"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_127",
+  "name": "Сколько весит падающая цепочка?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "IedzpLbfnXQ",
+  "description": "Сколько весит падающая цепочка?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_128",
+  "name": "Тепловое расширение твёрдых тел",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "wWXXyCNf0wk",
+  "description": "Тепловое расширение твёрдых тел"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_129",
+  "name": "Гидравлическая машина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "5E6Q1bxmWrU",
+  "description": "Гидравлическая машина"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_130",
+  "name": "Быстрее ветра и против ветра ● 5",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "_KI8HSnxqo4",
+  "description": "Быстрее ветра и против ветра ● 5"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_131",
+  "name": "Прыгающий шарик и динамический хаос",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "jIyoo-Rmqqw",
+  "description": "Прыгающий шарик и динамический хаос"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_132",
+  "name": "Переменный ток",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "NV2V5VcXlEI",
+  "description": "Переменный ток"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_133",
+  "name": "Равномерное и неравномерное движение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "xOZCzc_PfPc",
+  "description": "Равномерное и неравномерное движение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_134",
+  "name": "Ячейки Бенара ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "EnNe8LJJEVQ",
+  "description": "Ячейки Бенара ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_135",
+  "name": "Зачем вертолёту такой большой винт?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "7F6H04-eT88",
+  "description": "Зачем вертолёту такой большой винт?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_136",
+  "name": "Мощность",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "WpdJ62pDL3k",
+  "description": "Мощность"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_137",
+  "name": "Давление песка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "Qvm26aoUy0w",
+  "description": "Давление песка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_138",
+  "name": "Дифракция света ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "VCIR1IYWX0k",
+  "description": "Дифракция света ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_139",
+  "name": "Третий закон Ньютона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "ig3_QfQ5wDM",
+  "description": "Третий закон Ньютона"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_140",
+  "name": "Как Фалес Милетский измерял высоту пирамиды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "97BQV0mkRts",
+  "description": "Как Фалес Милетский измерял высоту пирамиды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_141",
+  "name": "Водяная воронка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "WyAXsMmfsZY",
+  "description": "Водяная воронка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_142",
+  "name": "Закон Паскаля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "in3MjUgJEXw",
+  "description": "Закон Паскаля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_143",
+  "name": "Громкость звука ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "ZNUg_qI7RgE",
+  "description": "Громкость звука ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_144",
+  "name": "Капиллярный вечный двигатель",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "drd3TIk-4QE",
+  "description": "Капиллярный вечный двигатель"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_145",
+  "name": "Линза Френеля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "KRCaG6ZyGqM",
+  "description": "Линза Френеля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_146",
+  "name": "Муха и вертолёт ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "AL3Fju6lgd4",
+  "description": "Муха и вертолёт ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_147",
+  "name": "Физика приливов ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "JQXQw1rme3c",
+  "description": "Физика приливов ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_148",
+  "name": "Вертушка Фейнмана ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_21",
+  "video": {
+  "codeVideo": "am1YBsnMe-c",
+  "description": "Вертушка Фейнмана ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_149",
+  "name": "Магнитное поле соленоида",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_22",
+  "video": {
+  "codeVideo": "1-jatNwBs7E",
+  "description": "Магнитное поле соленоида"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_150",
+  "name": "Принцип относительности Галилея",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "2GlmtoAN6h8",
+  "description": "Принцип относительности Галилея"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_151",
+  "name": "Коронный разряд и огни святого Эльма",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "1T8FRhLCUJM",
+  "description": "Коронный разряд и огни святого Эльма"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_152",
+  "name": "Почему угол отражения равен углу падения?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "QlTOMBHvWHE",
+  "description": "Почему угол отражения равен углу падения?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_153",
+  "name": "Камера-обскура",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "v0KcNZnQx7c",
+  "description": "Камера-обскура"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_154",
+  "name": "Изгиб балки",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "_dpKHkbDDJk",
+  "description": "Изгиб балки"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_155",
+  "name": "Прецессия гироскопа",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "3oo1abEnke4",
+  "description": "Прецессия гироскопа"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_156",
+  "name": "Дифракционная решетка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "hCU_beywf7o",
+  "description": "Дифракционная решетка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_157",
+  "name": "Быстрее ветра и против ветра ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "hxWJ4GWAhYA",
+  "description": "Быстрее ветра и против ветра ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_158",
+  "name": "Закон Джоуля-Ленца",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "GGnFhHSCuAs",
+  "description": "Закон Джоуля-Ленца"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_159",
+  "name": "Дуть в свои паруса ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_23",
+  "video": {
+  "codeVideo": "SfAlHB7_mrY",
+  "description": "Дуть в свои паруса ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_160",
+  "name": "Вертушка Фейнмана ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "YfmOrQyuZHg",
+  "description": "Вертушка Фейнмана ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_161",
+  "name": "Абсолютно чёрное тело",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "JBxwd7X2pRc",
+  "description": "Абсолютно чёрное тело"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_162",
+  "name": "Сила трения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "sT-HUE__vII",
+  "description": "Сила трения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_163",
+  "name": "Последовательное и параллельное соединение проводников",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "X7_lDtGzXTY",
+  "description": "Последовательное и параллельное соединение проводников"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_164",
+  "name": "Судно на воздушной подушке ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "2NBQ5-8tvt8",
+  "description": "Судно на воздушной подушке ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_165",
+  "name": "Счётчик электроэнергии ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "U3YX0_cNPzk",
+  "description": "Счётчик электроэнергии ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_166",
+  "name": "Магнитный гистерезис",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "UcfteD17xik",
+  "description": "Магнитный гистерезис"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_167",
+  "name": "Поверхностное натяжение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "ktQIoE0aCGU",
+  "description": "Поверхностное натяжение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_168",
+  "name": "Давление водяных паров",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "c7BJrtDSa3A",
+  "description": "Давление водяных паров"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_169",
+  "name": "Сферический избыток треугольника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "HyY0LqbUqFM",
+  "description": "Сферический избыток треугольника"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_170",
+  "name": "Отражение звука: эхо и эхолот",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "a4PUvrMwcMk",
+  "description": "Отражение звука: эхо и эхолот"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_171",
+  "name": "Супербол: почему он так необычно отскакивает?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "9yDDl3iZu8c",
+  "description": "Супербол: почему он так необычно отскакивает?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_172",
+  "name": "Источники звука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "nFcmTTT9yiE",
+  "description": "Источники звука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_173",
+  "name": "Резонатор Гельмгольца",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "BALaSrKeDi4",
+  "description": "Резонатор Гельмгольца"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_174",
+  "name": "Соединение конденсаторов в батареи",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "b9zs4LdJFXg",
+  "description": "Соединение конденсаторов в батареи"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_175",
+  "name": "Самоиндукция",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_24",
+  "video": {
+  "codeVideo": "Ji9D_xGI2l4",
+  "description": "Самоиндукция"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_176",
+  "name": "Закон сохранения импульса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "hRVw3Ig4WB4",
+  "description": "Закон сохранения импульса"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_177",
+  "name": "Быстрее ветра и против ветра ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "7GjSkZiG1DQ",
+  "description": "Быстрее ветра и против ветра ● 4"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_178",
+  "name": "Парадокс изогнутой трубы ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "Ye-Ua-ETP5M",
+  "description": "Парадокс изогнутой трубы ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_179",
+  "name": "Авторотация 1 ● Рёв быка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "JUh0Xnn-deY",
+  "description": "Авторотация 1 ● Рёв быка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_180",
+  "name": "Ареометр ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "DuwzHG7EGc8",
+  "description": "Ареометр ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_181",
+  "name": "Вихрь в магнитной мешалке",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "wPGHxo8LX64",
+  "description": "Вихрь в магнитной мешалке"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_182",
+  "name": "Шарик в струе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "vEquFxtL6jA",
+  "description": "Шарик в струе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_183",
+  "name": "Взаимодействие токов",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "eFUBPqwLxjY",
+  "description": "Взаимодействие токов"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_184",
+  "name": "Кораблик с паровым водомётом",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "aC7ymtL5s9Y",
+  "description": "Кораблик с паровым водомётом"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_185",
+  "name": "Охлаждение испарением",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "9R30Lk972Fs",
+  "description": "Охлаждение испарением"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_186",
+  "name": "Коэффициент полезного действия (КПД)",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "TeMH30oi83U",
+  "description": "Коэффициент полезного действия (КПД)"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_187",
+  "name": "Бросок под углом к горизонту",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "IDWMJB0OZb0",
+  "description": "Бросок под углом к горизонту"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_188",
+  "name": "Диамагнетики и парамагнетики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "IO1kzLHCJlM",
+  "description": "Диамагнетики и парамагнетики"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_189",
+  "name": "Циклоида и сложение движений",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "LgUi0KT2GB8",
+  "description": "Циклоида и сложение движений"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_190",
+  "name": "Кипение и конденсация",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "O5uXmBXHPXo",
+  "description": "Кипение и конденсация"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_191",
+  "name": "Сообщающиеся сосуды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "DS57fsKkrH8",
+  "description": "Сообщающиеся сосуды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_192",
+  "name": "Насадок Борда",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "efiTXZEDfqw",
+  "description": "Насадок Борда"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_193",
+  "name": "Почему ёмкость конденсатора увеличивается при сближении пластин?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "aOt57aukd5k",
+  "description": "Почему ёмкость конденсатора увеличивается при сближении пластин?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_194",
+  "name": "Вес тела ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "LBhoOqtKUn8",
+  "description": "Вес тела ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_195",
+  "name": "Что такое \"уравнение времени\"?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "gub6u8pOHog",
+  "description": "Что такое \"уравнение времени\"?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_196",
+  "name": "Загадка Эйнштейна про спагетти ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "8pGh2b_9RBQ",
+  "description": "Загадка Эйнштейна про спагетти ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_197",
+  "name": "Синхронизация метрономов",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "HrCU1YCxWBU",
+  "description": "Синхронизация метрономов"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_198",
+  "name": "Как замерзает водяная капля?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "U9juZmsRVrI",
+  "description": "Как замерзает водяная капля?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_199",
+  "name": "Плотность вещества",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "whYrY9vtrOo",
+  "description": "Плотность вещества"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_200",
+  "name": "Электромагнитная индукция ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "3ZSbe3A0pDc",
+  "description": "Электромагнитная индукция ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_201",
+  "name": "Почему не бывает зелёных звёзд?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "xyBM5c84g0Y",
+  "description": "Почему не бывает зелёных звёзд?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_202",
+  "name": "Водяное колесо Маха",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "sr5qQwO_OuY",
+  "description": "Водяное колесо Маха"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_203",
+  "name": "Давит ли летящий самолёт на землю?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "f3SqSbSoU4k",
+  "description": "Давит ли летящий самолёт на землю?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_204",
+  "name": "Подъёмная сила крыла ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "9sQtkO1b--8",
+  "description": "Подъёмная сила крыла ● 4"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_205",
+  "name": "Что такое магнитное сопротивление?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "yzLPYlP13k0",
+  "description": "Что такое магнитное сопротивление?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_206",
+  "name": "Масса тела и её измерение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "LZHzd7oLkyw",
+  "description": "Масса тела и её измерение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_207",
+  "name": "Полупроводниковый диод",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "S4OuIBDpisY",
+  "description": "Полупроводниковый диод"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_208",
+  "name": "Ультрафиолетовое излучение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "Yln0rEWg-uk",
+  "description": "Ультрафиолетовое излучение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_209",
+  "name": "Течёт ли переменный ток через конденсатор?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "gMcfBvUNhcM",
+  "description": "Течёт ли переменный ток через конденсатор?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_210",
+  "name": "Электрические соты",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "qx-ZzDcAm_g",
+  "description": "Электрические соты"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_211",
+  "name": "Закон Архимеда ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "prZe3OCku-0",
+  "description": "Закон Архимеда ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_212",
+  "name": "Передача электроэнергии на расстояние",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "AjKnIykhG-0",
+  "description": "Передача электроэнергии на расстояние"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_213",
+  "name": "Какой брусок взлетит выше? ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "e5kjrMCvzWQ",
+  "description": "Какой брусок взлетит выше? ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_214",
+  "name": "Момент импульса",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "pC3b_K9oxa4",
+  "description": "Момент импульса"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_215",
+  "name": "Гальванический элемент",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "jV2i1lpcyyE",
+  "description": "Гальванический элемент"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_216",
+  "name": "Закон Джоуля-Ленца и две последовательные лампы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "xlDaZVQWbNA",
+  "description": "Закон Джоуля-Ленца и две последовательные лампы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_217",
+  "name": "Ферромагнетики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "bj7bvbARfV4",
+  "description": "Ферромагнетики"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_218",
+  "name": "Быстрее ветра и против ветра ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "p89wp9kKf2M",
+  "description": "Быстрее ветра и против ветра ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_219",
+  "name": "Взрывающаяся капля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "zGhqZGAbIqY",
+  "description": "Взрывающаяся капля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_220",
+  "name": "Направление электрического тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "RU_-6Ahalqk",
+  "description": "Направление электрического тока"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_221",
+  "name": "От чего отталкивается снаряд в рельсотроне? ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_25",
+  "video": {
+  "codeVideo": "N-MLezhjO3I",
+  "description": "От чего отталкивается снаряд в рельсотроне? ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_222",
+  "name": "Стоячие звуковые волны в трубах",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "NqAXKw3bx4k",
+  "description": "Стоячие звуковые волны в трубах"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_223",
+  "name": "Тепловой двигатель ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "lJO2_hiYK8w",
+  "description": "Тепловой двигатель ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_224",
+  "name": "Электрофор Вольта: как он работает?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "YsT-n75XwLk",
+  "description": "Электрофор Вольта: как он работает?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_225",
+  "name": "Электростатическая индукция",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "DGeH-Huf9uc",
+  "description": "Электростатическая индукция"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_226",
+  "name": "Чем ограничена высота гор?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "iTG8PtgVAio",
+  "description": "Чем ограничена высота гор?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_227",
+  "name": "Клетка Фарадея и измерение заряда",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "PF6eFwYcC_0",
+  "description": "Клетка Фарадея и измерение заряда"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_228",
+  "name": "Вечный двигатель на силе Архимеда",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "dPvkinsMc4U",
+  "description": "Вечный двигатель на силе Архимеда"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_229",
+  "name": "Спектр звука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "HVP5gjZWHm8",
+  "description": "Спектр звука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_230",
+  "name": "Парадокс кинетической энергии ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "zBG3q5JOFtc",
+  "description": "Парадокс кинетической энергии ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_231",
+  "name": "Как работает генератор переменного тока?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "4jGDiry59as",
+  "description": "Как работает генератор переменного тока?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_232",
+  "name": "Колебания маятника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "JJFczJe-jqc",
+  "description": "Колебания маятника"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_233",
+  "name": "Резонанс в колебательном контуре",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "Xl6Wrg2z8gQ",
+  "description": "Резонанс в колебательном контуре"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_234",
+  "name": "Гармонические колебания",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "ke237hiv304",
+  "description": "Гармонические колебания"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_235",
+  "name": "Физический маятник",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "qg33vx_vDIM",
+  "description": "Физический маятник"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_236",
+  "name": "Зазор в магнитопроводе и токи намагничивания",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_26",
+  "video": {
+  "codeVideo": "DX1WB1bZD-k",
+  "description": "Зазор в магнитопроводе и токи намагничивания"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_237",
+  "name": "Интерференция света на двух щелях ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "LIgYhNg3uqo",
+  "description": "Интерференция света на двух щелях ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_238",
+  "name": "Сила. Единицы силы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "cR5RGq3M18g",
+  "description": "Сила. Единицы силы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_239",
+  "name": "Сложение цветов в RGB модели",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "U3lWiBmDiPM",
+  "description": "Сложение цветов в RGB модели"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_240",
+  "name": "Парадокс пожарного ствола ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "cvKHJP0IaNk",
+  "description": "Парадокс пожарного ствола ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_241",
+  "name": "Тепловая машина Карно ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "kDZBjYNh0yo",
+  "description": "Тепловая машина Карно ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_242",
+  "name": "Выпрямитель: диодный мост",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "uY-yytrsMnY",
+  "description": "Выпрямитель: диодный мост"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_243",
+  "name": "Как поворачивает самолёт?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "qWiwzNhzmYc",
+  "description": "Как поворачивает самолёт?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_244",
+  "name": "Ёмкость конденсатора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "8TpQzXyb9u4",
+  "description": "Ёмкость конденсатора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_245",
+  "name": "Магнитострикция",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "qAvs6B4Ej1I",
+  "description": "Магнитострикция"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_246",
+  "name": "Скорость и её измерение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "OcGqkput8Sk",
+  "description": "Скорость и её измерение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_247",
+  "name": "Муха и вертолёт ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "_dkgDESemiM",
+  "description": "Муха и вертолёт ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_248",
+  "name": "Диэлектрик в электрическом поле",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "627QB4DGE8k",
+  "description": "Диэлектрик в электрическом поле"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_249",
+  "name": "Действия электрического тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "8yXf4Gawl4w",
+  "description": "Действия электрического тока"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_250",
+  "name": "Светодиод и лазерная указка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "fbNHGkU-g7Q",
+  "description": "Светодиод и лазерная указка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_251",
+  "name": "Магнитный тормоз и токи Фуко",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "3m6QASho5xM",
+  "description": "Магнитный тормоз и токи Фуко"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_252",
+  "name": "Звук гофрированной трубы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_28",
+  "video": {
+  "codeVideo": "_q6aPYaHBsA",
+  "description": "Звук гофрированной трубы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_253",
+  "name": "Зарядка конденсатора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "l24dhT-jzxM",
+  "description": "Зарядка конденсатора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_254",
+  "name": "Кумулятивные струи",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "-GEej63qXGo",
+  "description": "Кумулятивные струи"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_255",
+  "name": "От Фалеса к триангуляционной сети",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "iBzl7ZiQ1oY",
+  "description": "От Фалеса к триангуляционной сети"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_256",
+  "name": "Авторотация 3 ● Бумажный вертолёт",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "IMHOKrpw2lo",
+  "description": "Авторотация 3 ● Бумажный вертолёт"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_257",
+  "name": "Тепловое излучение и закон смещения Вина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "2YkXdTHkl4U",
+  "description": "Тепловое излучение и закон смещения Вина"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_258",
+  "name": "Пульверизатор и закон Бернулли",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "LcZmJp4moOQ",
+  "description": "Пульверизатор и закон Бернулли"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_259",
+  "name": "Магнитный маятник Дубошинского ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "NCYN5YUKfeI",
+  "description": "Магнитный маятник Дубошинского ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_260",
+  "name": "Маятник Капицы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "jsBnFHdsSjc",
+  "description": "Маятник Капицы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_261",
+  "name": "Интерференция в тонких плёнках и кольца Ньютона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "wq_j69PKGzg",
+  "description": "Интерференция в тонких плёнках и кольца Ньютона"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_262",
+  "name": "Возможно ли действие без противодействия?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "4yDzDUpbgoE",
+  "description": "Возможно ли действие без противодействия?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_263",
+  "name": "Сегнерово колесо ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "IYXaoeyCbKM",
+  "description": "Сегнерово колесо ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_264",
+  "name": "Сложение движений",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "LoEt-CaqNWI",
+  "description": "Сложение движений"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_265",
+  "name": "Многократное отражение света",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "MUOzHxbul2s",
+  "description": "Многократное отражение света"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_266",
+  "name": "Подъёмная сила крыла ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "TzSlRzTPiCM",
+  "description": "Подъёмная сила крыла ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_267",
+  "name": "Светодиоды и конденсатор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "0YC2_uSNmJM",
+  "description": "Светодиоды и конденсатор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_268",
+  "name": "Эффект чайника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "ZJN2EVg3gvU",
+  "description": "Эффект чайника"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_269",
+  "name": "Магнитное поле прямого тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "qL-WlnjJYwQ",
+  "description": "Магнитное поле прямого тока"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_270",
+  "name": "Автотрансформатор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "aMmQkOb7HkM",
+  "description": "Автотрансформатор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_271",
+  "name": "Шарик в воронке",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "KNHpPn3u_Dw",
+  "description": "Шарик в воронке"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_272",
+  "name": "Термопара и элемент Пельтье",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "dp0mmZhaPX4",
+  "description": "Термопара и элемент Пельтье"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_273",
+  "name": "Вертушка Фейнмана ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "3ntlBk4ji8c",
+  "description": "Вертушка Фейнмана ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_274",
+  "name": "Куда упадёт брошенный камень?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "BuQmNQH77-E",
+  "description": "Куда упадёт брошенный камень?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_275",
+  "name": "Какая сила удерживает бумагу?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "3SM7bhRpaMM",
+  "description": "Какая сила удерживает бумагу?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_276",
+  "name": "Микроскоп",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "9_honU9cg-4",
+  "description": "Микроскоп"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_277",
+  "name": "Фотоакустический эффект",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "PtjEXUL-lTg",
+  "description": "Фотоакустический эффект"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_278",
+  "name": "Равноускоренное движение ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_30",
+  "video": {
+  "codeVideo": "uI-X34SzHYg",
+  "description": "Равноускоренное движение ● 4"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_279",
+  "name": "Загадка Эйнштейна про спагетти ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "G63yhXJh6Ik",
+  "description": "Загадка Эйнштейна про спагетти ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_280",
+  "name": "Ошибка Перельмана",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "VTjWRvGZZtM",
+  "description": "Ошибка Перельмана"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_281",
+  "name": "Колесо Франклина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "oYz1c-OeEC0",
+  "description": "Колесо Франклина"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_282",
+  "name": "Электрический конденсатор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "zrCbD9lv6IA",
+  "description": "Электрический конденсатор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_283",
+  "name": "Объём тела",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "UlAutNU4yNY",
+  "description": "Объём тела"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_284",
+  "name": "Распространение звука в различных средах",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "KrSLUE8lbUs",
+  "description": "Распространение звука в различных средах"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_285",
+  "name": "Ёмкостное сопротивление",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "GWfY0My11v8",
+  "description": "Ёмкостное сопротивление"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_286",
+  "name": "Логарифмическая спираль",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "2tcPJE_y_lQ",
+  "description": "Логарифмическая спираль"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_287",
+  "name": "Предварение равноденствий",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "98IzPTkPeBg",
+  "description": "Предварение равноденствий"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_288",
+  "name": "Как работает стабилитрон?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_33",
+  "video": {
+  "codeVideo": "denwtwcfvZw",
+  "description": "Как работает стабилитрон?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_289",
+  "name": "Плавление и отвердевание кристаллических тел",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "9jyQN7ciqYg",
+  "description": "Плавление и отвердевание кристаллических тел"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_290",
+  "name": "Почему лампа светится после выключения?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "AJzELtxxnM4",
+  "description": "Почему лампа светится после выключения?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_291",
+  "name": "Шарик на мембране",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "ZKUaNQZKrUc",
+  "description": "Шарик на мембране"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_292",
+  "name": "Магнитное поле снаружи магнитопровода",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "NKytKpdMlR0",
+  "description": "Магнитное поле снаружи магнитопровода"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_293",
+  "name": "Преломление света",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "aVEVAIDRVXM",
+  "description": "Преломление света"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_294",
+  "name": "Плавание тел ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "iv2-PaDL2g0",
+  "description": "Плавание тел ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_295",
+  "name": "Равноускоренное движение ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "D9PO6oJi3rE",
+  "description": "Равноускоренное движение ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_296",
+  "name": "Фотодиод",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "O1OfeI3SNZo",
+  "description": "Фотодиод"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_297",
+  "name": "Электростатические двигатели",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "af2AgTyDRyI",
+  "description": "Электростатические двигатели"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_298",
+  "name": "Мгновенный центр вращения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "WkBAhlt15RQ",
+  "description": "Мгновенный центр вращения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_299",
+  "name": "Ход лучей в собирающей линзе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "cO1GVHxlVgc",
+  "description": "Ход лучей в собирающей линзе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_300",
+  "name": "Распространение света и световые лучи",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "VdSsgDQf-fM",
+  "description": "Распространение света и световые лучи"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_301",
+  "name": "Какой брусок взлетит выше? ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "XjqvPQ-nY9Q",
+  "description": "Какой брусок взлетит выше? ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_302",
+  "name": "Воздушный насос",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "2FtqZHlQSr0",
+  "description": "Воздушный насос"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_303",
+  "name": "Пламя свечи в электрическом поле",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "JYpinbYdzyc",
+  "description": "Пламя свечи в электрическом поле"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_304",
+  "name": "Физика приливов ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "YnclNPmoXDc",
+  "description": "Физика приливов ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_305",
+  "name": "Балка на двух опорах",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "_CBh1TzHWCc",
+  "description": "Балка на двух опорах"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_306",
+  "name": "Парадокс пожарного ствола ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "4JfvpRPzgdM",
+  "description": "Парадокс пожарного ствола ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_307",
+  "name": "Гидравлический прыжок",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "YyvQ5Twe0kw",
+  "description": "Гидравлический прыжок"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_308",
+  "name": "Парадокс лунной энергии",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "pY9DgbRu3rs",
+  "description": "Парадокс лунной энергии"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_309",
+  "name": "Существует ли динамическое давление?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "P-tvyg5nn98",
+  "description": "Существует ли динамическое давление?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_310",
+  "name": "Виток с током в магнитном поле",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "-Arnc7DpUr0",
+  "description": "Виток с током в магнитном поле"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_311",
+  "name": "Фигуры Лиссажу",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "l0VbZaxx-nE",
+  "description": "Фигуры Лиссажу"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_312",
+  "name": "Авторотация 4 ● Силы и моменты",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "gd_bn7eCJrg",
+  "description": "Авторотация 4 ● Силы и моменты"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_313",
+  "name": "Какой брусок взлетит выше? ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "zEIngjXKVM4",
+  "description": "Какой брусок взлетит выше? ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_314",
+  "name": "Тепловое расширение и подъём воды",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "l4kAJd3K_v0",
+  "description": "Тепловое расширение и подъём воды"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_315",
+  "name": "Поющий бокал",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_34",
+  "video": {
+  "codeVideo": "dWktF5O9Xzo",
+  "description": "Поющий бокал"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_316",
+  "name": "Где хранится заряд в конденсаторе ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "46hRcDWdO_s",
+  "description": "Где хранится заряд в конденсаторе ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_317",
+  "name": "Поверхностно-активные вещества",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "p40Ju_5D0Ug",
+  "description": "Поверхностно-активные вещества"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_318",
+  "name": "Электрический водяной мостик",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "-8RpDFKLNqs",
+  "description": "Электрический водяной мостик"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_319",
+  "name": "Электродвигатель постоянного тока",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "_-h_QoT1fDw",
+  "description": "Электродвигатель постоянного тока"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_320",
+  "name": "Обратное подключение диода",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "_KdMu7kH8Ls",
+  "description": "Обратное подключение диода"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_321",
+  "name": "Где хранится заряд в конденсаторе ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "d-uDgLEq5-g",
+  "description": "Где хранится заряд в конденсаторе ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_322",
+  "name": "Что такое физический парадокс?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "5j0ym9328L0",
+  "description": "Что такое физический парадокс?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_323",
+  "name": "Флейта и свисток",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "im5WM455RxY",
+  "description": "Флейта и свисток"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_324",
+  "name": "Закон Бернулли и движение по инерции",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "xhJ8BTfTZrs",
+  "description": "Закон Бернулли и движение по инерции"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_325",
+  "name": "Почему чаинки собираются в центре стакана?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "yGl3JfuQmQE",
+  "description": "Почему чаинки собираются в центре стакана?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_326",
+  "name": "Петлевой маятник",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "B0JSbnOZr38",
+  "description": "Петлевой маятник"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_327",
+  "name": "Блуждания в 2 и 3 измерениях",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "zYaSK9DaDV4",
+  "description": "Блуждания в 2 и 3 измерениях"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_328",
+  "name": "Огненный торнадо",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "GxetxPB8vNE",
+  "description": "Огненный торнадо"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_329",
+  "name": "Плавание тел в воде с пузырями",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "vtK04CsGHhc",
+  "description": "Плавание тел в воде с пузырями"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_330",
+  "name": "Авторотация 2 ● Планирующая пластина",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "l7q-OSV8-Os",
+  "description": "Авторотация 2 ● Планирующая пластина"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_331",
+  "name": "Куда исчезла энергия конденсатора?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "sZeHxnOD3R4",
+  "description": "Куда исчезла энергия конденсатора?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_332",
+  "name": "Парадокс пожарного ствола ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "ISRDduBcwQk",
+  "description": "Парадокс пожарного ствола ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_333",
+  "name": "Чем удерживается вода в перевёрнутом стакане?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "8PoLwdo7plM",
+  "description": "Чем удерживается вода в перевёрнутом стакане?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_334",
+  "name": "Гибкий вал",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "yeKMKWRo-10",
+  "description": "Гибкий вал"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_335",
+  "name": "Асинхронный электродвигатель ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_35",
+  "video": {
+  "codeVideo": "Kx4KjMeziF4",
+  "description": "Асинхронный электродвигатель ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_336",
+  "name": "Газовые законы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "UMld6gSiQS8",
+  "description": "Газовые законы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_337",
+  "name": "Подъёмная сила крыла ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "qb9rJdQBtgo",
+  "description": "Подъёмная сила крыла ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_338",
+  "name": "Поляризация света и угол Брюстера",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "z6zEksnYIpo",
+  "description": "Поляризация света и угол Брюстера"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_339",
+  "name": "Муаровые узоры",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "SljxG8yOyoA",
+  "description": "Муаровые узоры"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_340",
+  "name": "Колебания струны",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "XGvMwY3BY_U",
+  "description": "Колебания струны"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_341",
+  "name": "Вертушка Фейнмана ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "FITR8UkPoZ8",
+  "description": "Вертушка Фейнмана ● 4"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_342",
+  "name": "Делал ли Паскаль опыт с бочкой?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "pRfqyTZeszs",
+  "description": "Делал ли Паскаль опыт с бочкой?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_343",
+  "name": "Судно на воздушной подушке ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "zm6Z8x5kG5A",
+  "description": "Судно на воздушной подушке ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_344",
+  "name": "Музыкальные звуки",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "ojGgYPvhbgw",
+  "description": "Музыкальные звуки"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_345",
+  "name": "Сопротивление воздуха ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "fAamSloNYe8",
+  "description": "Сопротивление воздуха ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_346",
+  "name": "Акустическая левитация ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "bssjGm2q2jw",
+  "description": "Акустическая левитация ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_347",
+  "name": "Люминесценция и фосфоресценция",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "8R9k2LKU5J4",
+  "description": "Люминесценция и фосфоресценция"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_348",
+  "name": "Необычное падение пружины слинки",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "msQ2H9OkO40",
+  "description": "Необычное падение пружины слинки"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_349",
+  "name": "Индуктивное сопротивление",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "suDKwb__XmQ",
+  "description": "Индуктивное сопротивление"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_350",
+  "name": "Ячейки Бенара ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "PqgzWGX_wa8",
+  "description": "Ячейки Бенара ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_351",
+  "name": "Дуть в свои паруса ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "AIao28kXW6g",
+  "description": "Дуть в свои паруса ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_352",
+  "name": "Рассеянный свет",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "BzIpUwBcFV8",
+  "description": "Рассеянный свет"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_353",
+  "name": "Эффект Лейденфроста",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "NfOY6lxpMCE",
+  "description": "Эффект Лейденфроста"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_354",
+  "name": "Формула Циолковского",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "sBUvM6BGPng",
+  "description": "Формула Циолковского"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_355",
+  "name": "Механическая работа",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "Ox07SKVfGSE",
+  "description": "Механическая работа"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_356",
+  "name": "Загадка силиконового валика",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "n0dYkoJlOpI",
+  "description": "Загадка силиконового валика"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_357",
+  "name": "Парадокс изогнутой трубы ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "qflGMNmNdf4",
+  "description": "Парадокс изогнутой трубы ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_358",
+  "name": "Магнитный левитрон: как он работает?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_37",
+  "video": {
+  "codeVideo": "Gu_V1UxQaT0",
+  "description": "Магнитный левитрон: как он работает?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_359",
+  "name": "Направленная передача звука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "LhXT4N61FIE",
+  "description": "Направленная передача звука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_360",
+  "name": "Синхронный электродвигатель",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "ThCOw5t_mGc",
+  "description": "Синхронный электродвигатель"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_361",
+  "name": "Фрикционный осциллятор ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "YtkhTout3PU",
+  "description": "Фрикционный осциллятор ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_362",
+  "name": "Электромагнит, реле и звонок",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "dB-WGEA3Z4o",
+  "description": "Электромагнит, реле и звонок"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_363",
+  "name": "Почему вилки не опрокидывают спичку?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "HZNOrdJEJs4",
+  "description": "Почему вилки не опрокидывают спичку?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_364",
+  "name": "Всплеск песка ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "idBJA9sMwF4",
+  "description": "Всплеск песка ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_365",
+  "name": "Что такое число Россби?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "o8Dk_XFwySQ",
+  "description": "Что такое число Россби?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_366",
+  "name": "Длина волны",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "wd8sxr1Z1tc",
+  "description": "Длина волны"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_367",
+  "name": "Внутреннее сопротивление",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "RnQGENiF-QM",
+  "description": "Внутреннее сопротивление"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_368",
+  "name": "Закон Архимеда ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "paTtlaFfFT0",
+  "description": "Закон Архимеда ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_369",
+  "name": "Колебательный контур",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "I2apjzY6PLk",
+  "description": "Колебательный контур"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_370",
+  "name": "Аномальное вращение цилиндра",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "yMqv9c89Y2s",
+  "description": "Аномальное вращение цилиндра"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_371",
+  "name": "Как измерили расстояние до Луны ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "FOkyFVG5xcI",
+  "description": "Как измерили расстояние до Луны ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_372",
+  "name": "Стробоскопический эффект",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "cUwt78RLPcM",
+  "description": "Стробоскопический эффект"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_373",
+  "name": "Оптическая сила линзы",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "5nNc4QZxBz0",
+  "description": "Оптическая сила линзы"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_374",
+  "name": "Сопротивление лампы накаливания",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "DowFnoMYqgI",
+  "description": "Сопротивление лампы накаливания"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_375",
+  "name": "Электромагнитная индукция ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "rxyde04SDXo",
+  "description": "Электромагнитная индукция ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_376",
+  "name": "Удивительный фонтан из бус",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "tA_CGHWMmiI",
+  "description": "Удивительный фонтан из бус"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_377",
+  "name": "Изображение в собирающей линзе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "ofIOIJz8vZ8",
+  "description": "Изображение в собирающей линзе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_378",
+  "name": "Кольцо на стержне ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "p3naBTGr1Pc",
+  "description": "Кольцо на стержне ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_379",
+  "name": "Динамик и микрофон",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "hv2t2mLloaw",
+  "description": "Динамик и микрофон"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_380",
+  "name": "Кумулятивная струя в падающем шаре",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "YjJ72EtEBTM",
+  "description": "Кумулятивная струя в падающем шаре"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_381",
+  "name": "Лентикулярная линза и человек-невидимка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "jT0fPJI27L4",
+  "description": "Лентикулярная линза и человек-невидимка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_382",
+  "name": "Оптика увеличительного стекла",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "ivnMn7qL1MM",
+  "description": "Оптика увеличительного стекла"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_383",
+  "name": "Электрическое поле заряженного проводника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "kAdBspxcW1M",
+  "description": "Электрическое поле заряженного проводника"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_384",
+  "name": "Наклонная плоскость",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "GrmlHU_f88I",
+  "description": "Наклонная плоскость"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_385",
+  "name": "Коэффициент трения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "_aARTleZ158",
+  "description": "Коэффициент трения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_386",
+  "name": "Троянские астероиды и точки Лагранжа",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "kxrxj5Dhn_Q",
+  "description": "Троянские астероиды и точки Лагранжа"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_387",
+  "name": "Длина свободного пробега ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_38",
+  "video": {
+  "codeVideo": "xZsw5gjvHPI",
+  "description": "Длина свободного пробега ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_388",
+  "name": "Изоляторы и диэлектрики: в чём разница?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "0Tk6oZOx1bw",
+  "description": "Изоляторы и диэлектрики: в чём разница?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_389",
+  "name": "Давление звукового излучения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "l0VrvHbyIow",
+  "description": "Давление звукового излучения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_390",
+  "name": "Как работает колесо",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "tH_2w0Vdluw",
+  "description": "Как работает колесо"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_391",
+  "name": "Асинхронный электродвигатель ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "QUsclfmqSeQ",
+  "description": "Асинхронный электродвигатель ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_392",
+  "name": "Вес песочных часов ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "mf7miLL9KCw",
+  "description": "Вес песочных часов ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_393",
+  "name": "Маятник Уилберфорса ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "U1Ad4RhKRMQ",
+  "description": "Маятник Уилберфорса ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_394",
+  "name": "Картезианский водолаз",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "vE9UxRcgpFw",
+  "description": "Картезианский водолаз"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_395",
+  "name": "Манометр",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "d7kFaJIr8TY",
+  "description": "Манометр"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_396",
+  "name": "Зачем нужен диэлектрик внутри конденсатора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "h5RIe_C-O5M",
+  "description": "Зачем нужен диэлектрик внутри конденсатора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_397",
+  "name": "Полное внутреннее отражение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "lecp6WBcDU8",
+  "description": "Полное внутреннее отражение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_398",
+  "name": "Ещё один взгляд на прецессию",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "oKLVx0m7kHg",
+  "description": "Ещё один взгляд на прецессию"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_399",
+  "name": "Первая космическая скорость",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "0xiAIlmz6jo",
+  "description": "Первая космическая скорость"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_400",
+  "name": "Светосила объектива",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "Gizh9L-2xkw",
+  "description": "Светосила объектива"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_401",
+  "name": "Дифракция света ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "Ht4gyjXMwpc",
+  "description": "Дифракция света ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_402",
+  "name": "Гидрофлайт и реактивная тяга",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "dFElcnNGVkQ",
+  "description": "Гидрофлайт и реактивная тяга"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_403",
+  "name": "Неустойчивость садового шланга",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "uowxAIIHigc",
+  "description": "Неустойчивость садового шланга"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_404",
+  "name": "Австрийский школьный учебник физики",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "3lFsoM1kLBc",
+  "description": "Австрийский школьный учебник физики"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_405",
+  "name": "Телескоп-рефрактор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "ngfySRHIeqI",
+  "description": "Телескоп-рефрактор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_406",
+  "name": "Электромагнитная индукция ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "o-_J7oaqAkU",
+  "description": "Электромагнитная индукция ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_407",
+  "name": "Акустическая левитация ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "vdi-_u2aPZ0",
+  "description": "Акустическая левитация ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_408",
+  "name": "Эффект Коанда ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "wSiAETyO6y8",
+  "description": "Эффект Коанда ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_409",
+  "name": "Диск Эйлера",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "8xIfylbpR3s",
+  "description": "Диск Эйлера"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_410",
+  "name": "Тень и полутень",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "7hgs4ihpbJA",
+  "description": "Тень и полутень"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_411",
+  "name": "Эрик Роджерс - Физика для любознательных",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "U-iBlSflNNc",
+  "description": "Эрик Роджерс - Физика для любознательных"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_412",
+  "name": "Эффект Оберта",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_11",
+  "video": {
+  "codeVideo": "lOgL9K0lpbc",
+  "description": "Эффект Оберта"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_413",
+  "name": "Энергия магнитного поля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "MRpJn2RQ-04",
+  "description": "Энергия магнитного поля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_414",
+  "name": "Цистерна Маха",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "VNLmJJL-CLI",
+  "description": "Цистерна Маха"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_415",
+  "name": "Ещё раз об \"исчезнувшей\" энергии конденсатора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "75uZIZDV3Qg",
+  "description": "Ещё раз об \"исчезнувшей\" энергии конденсатора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_416",
+  "name": "Диск Рэлея",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "8Kj-rxDbKmM",
+  "description": "Диск Рэлея"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_417",
+  "name": "Электрические заряды на поверхности проводника",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "MYfWEoqWcT4",
+  "description": "Электрические заряды на поверхности проводника"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_418",
+  "name": "Зависимость электрического сопротивления от температуры",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "cPeQVMlVchM",
+  "description": "Зависимость электрического сопротивления от температуры"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_419",
+  "name": "Парадокс изогнутой трубы ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "1AOp2AVOzB4",
+  "description": "Парадокс изогнутой трубы ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_420",
+  "name": "Задача Штейнера и транспортный центр",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "5TZlaOhkxxk",
+  "description": "Задача Штейнера и транспортный центр"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_421",
+  "name": "Равнодействующая и сложение сил",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "8Qq2gAzGvjo",
+  "description": "Равнодействующая и сложение сил"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_422",
+  "name": "Как растёт с температурой сопротивление лампы накала?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "Ex0VxwapQio",
+  "description": "Как растёт с температурой сопротивление лампы накала?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_423",
+  "name": "Телескоп-рефлектор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "DCfT5lBj9uY",
+  "description": "Телескоп-рефлектор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_424",
+  "name": "Ультразвук и зонная пластинка Френеля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "FsvTrX3CCaA",
+  "description": "Ультразвук и зонная пластинка Френеля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_425",
+  "name": "Цепная линия и её центр тяжести",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "IXfy90Cm-SM",
+  "description": "Цепная линия и её центр тяжести"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_426",
+  "name": "Что такое «идеальная жидкость»?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "MinrxATiDGQ",
+  "description": "Что такое «идеальная жидкость»?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_427",
+  "name": "Энергия и мощность резинового мотора",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "WBs6jm4UMUQ",
+  "description": "Энергия и мощность резинового мотора"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_428",
+  "name": "Вогнутое зеркало и солнечные печи",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_29",
+  "video": {
+  "codeVideo": "g9aLlu99Ms4",
+  "description": "Вогнутое зеркало и солнечные печи"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_429",
+  "name": "Где она наберёт наибольшую скорость?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "gR5xgx8x8ZY",
+  "description": "Где она наберёт наибольшую скорость?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_430",
+  "name": "Работа и энергия: горки Галилея",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "ESQckIz-55k",
+  "description": "Работа и энергия: горки Галилея"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_431",
+  "name": "Странности давления внутри резинового шарика",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "MdKy4opNths",
+  "description": "Странности давления внутри резинового шарика"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_432",
+  "name": "Четырёхзондовый метод",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "TME3oDyfpko",
+  "description": "Четырёхзондовый метод"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_433",
+  "name": "Вес песочных часов ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "dJjmvhHVjdk",
+  "description": "Вес песочных часов ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_434",
+  "name": "Плотность воздуха",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "OaUcIa7lDvo",
+  "description": "Плотность воздуха"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_435",
+  "name": "Отражение света от плоского зеркала",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "PQhLKf2-h-M",
+  "description": "Отражение света от плоского зеркала"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_436",
+  "name": "Зачем нужна физика?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "vVAMZ0vo9E4",
+  "description": "Зачем нужна физика?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_437",
+  "name": "Вычитание цветов в CMY модели",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "1B7x_RPAXRc",
+  "description": "Вычитание цветов в CMY модели"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_438",
+  "name": "Пузырьковый кристалл",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "RzR2qpfwYH0",
+  "description": "Пузырьковый кристалл"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_439",
+  "name": "Почему дюралевая пластинка не тонет в воде?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "WKkd7dzKeoY",
+  "description": "Почему дюралевая пластинка не тонет в воде?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_440",
+  "name": "Ёмкость конденсатора и энергия электрического поля",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "3XRX4vNNplY",
+  "description": "Ёмкость конденсатора и энергия электрического поля"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_441",
+  "name": "Изображение в вогнутом зеркале",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "E1w0ETcjAoo",
+  "description": "Изображение в вогнутом зеркале"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_442",
+  "name": "Магнитный маятник Дубошинского ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "XS7_cLZdgaA",
+  "description": "Магнитный маятник Дубошинского ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_443",
+  "name": "Почему капля круглая?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "2JaQSQHclk0",
+  "description": "Почему капля круглая?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_444",
+  "name": "Джалаледдин Руми. \"О спорах по поводу облика слона\"",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "YfY81U-_16A",
+  "description": "Джалаледдин Руми. \"О спорах по поводу облика слона\""
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_445",
+  "name": "Датчик влажности воздуха",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "PyuGsKJv2Kc",
+  "description": "Датчик влажности воздуха"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_446",
+  "name": "Дробь тонет, лодка всплывает",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "fnAxfkXC4jk",
+  "description": "Дробь тонет, лодка всплывает"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_447",
+  "name": "Сегнерово колесо ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "pyDLH13M_e0",
+  "description": "Сегнерово колесо ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_448",
+  "name": "Клин и винт",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_5",
+  "video": {
+  "codeVideo": "L0xSPwSyjmg",
+  "description": "Клин и винт"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_449",
+  "name": "Парадокс изогнутой трубы ● 4",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "wO5B3oEi6lk",
+  "description": "Парадокс изогнутой трубы ● 4"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_450",
+  "name": "Непотопляемый диск",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "eP5_9eUjfkI",
+  "description": "Непотопляемый диск"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_451",
+  "name": "Вращающиеся цилиндры",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "3ln2Mj-_cng",
+  "description": "Вращающиеся цилиндры"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_452",
+  "name": "Три поляризатора прозрачнее двух",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "Zzj-8PvQHuU",
+  "description": "Три поляризатора прозрачнее двух"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_453",
+  "name": "С какой скоростью течёт электрический ток?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "p1cWbkgJamg",
+  "description": "С какой скоростью течёт электрический ток?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_454",
+  "name": "Ячейки Бенара ● 3",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "yXLGYaXgQ2g",
+  "description": "Ячейки Бенара ● 3"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_455",
+  "name": "Глаз и зрение",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "EqpB2mqSQvY",
+  "description": "Глаз и зрение"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_456",
+  "name": "Универсальный электродвигатель",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "hk-4vJRvv00",
+  "description": "Универсальный электродвигатель"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_457",
+  "name": "Процарапанная голограмма",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "ivFxt0qawMY",
+  "description": "Процарапанная голограмма"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_458",
+  "name": "Танцующий цилиндр",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "uQLkxYm0aF4",
+  "description": "Танцующий цилиндр"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_459",
+  "name": "Дифракция: венцы и короны",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "R1cTBNjRJyY",
+  "description": "Дифракция: венцы и короны"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_460",
+  "name": "Ультразвуковое пятно Пуассона",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "sfO-lxOJXyo",
+  "description": "Ультразвуковое пятно Пуассона"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_461",
+  "name": "Ход лучей в рассеивающей линзе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "LF09BRARhok",
+  "description": "Ход лучей в рассеивающей линзе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_462",
+  "name": "Сохранение импульса и бильярдные шары",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "N1OZqtmzB50",
+  "description": "Сохранение импульса и бильярдные шары"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_463",
+  "name": "Сила звукового давления ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "_8-LDr4AEdg",
+  "description": "Сила звукового давления ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_464",
+  "name": "Вращающееся седло ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "FzeXCJMsWE0",
+  "description": "Вращающееся седло ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_465",
+  "name": "Отражение света от выпуклого зеркала",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "Vhh1YiaGeEU",
+  "description": "Отражение света от выпуклого зеркала"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_466",
+  "name": "Космические загадки Крабовидной туманности",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "y_1E5A58q6w",
+  "description": "Космические загадки Крабовидной туманности"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_467",
+  "name": "Воздухоплавание и закон Архимеда",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "e-r9zOGcA1I",
+  "description": "Воздухоплавание и закон Архимеда"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_468",
+  "name": "Левитация в магнитной мешалке ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "nSQTgPYeYJg",
+  "description": "Левитация в магнитной мешалке ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_469",
+  "name": "Парадокс кинетической энергии ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "T40IuySMnFc",
+  "description": "Парадокс кинетической энергии ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_470",
+  "name": "Коэффициент поверхностного натяжения",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "jbNk3STO9Ac",
+  "description": "Коэффициент поверхностного натяжения"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_471",
+  "name": "Магнитное поле на оси цилиндрического магнита",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "DkCioTGSCIU",
+  "description": "Магнитное поле на оси цилиндрического магнита"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_472",
+  "name": "Почему мокрый песок темнее сухого?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "G77pCiRY2dw",
+  "description": "Почему мокрый песок темнее сухого?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_473",
+  "name": "Две пружины: вверх или вниз?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "99aYXTWGNwI",
+  "description": "Две пружины: вверх или вниз?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_474",
+  "name": "Пузыри в газировке",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "ZKMJAJ3nDfY",
+  "description": "Пузыри в газировке"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_475",
+  "name": "Как устроено физическое объяснение?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_6",
+  "video": {
+  "codeVideo": "ejS1MLMikCQ",
+  "description": "Как устроено физическое объяснение?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_476",
+  "name": "Три давления? Нет, три энергии!",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "QV-d0oGInSQ",
+  "description": "Три давления? Нет, три энергии!"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_477",
+  "name": "Отчего разрушился Такомский мост?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "S9HZL6UUH5k",
+  "description": "Отчего разрушился Такомский мост?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_478",
+  "name": "Гальваническая батарея",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "vXSfCuMLBio",
+  "description": "Гальваническая батарея"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_479",
+  "name": "Фотоаппарат как оптический прибор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "8AkqwqUapMY",
+  "description": "Фотоаппарат как оптический прибор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_480",
+  "name": "Куда исчезла энергия пружины?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "8w-1SF6qPtc",
+  "description": "Куда исчезла энергия пружины?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_481",
+  "name": "Проводник во внешнем электрическом поле",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "53YvTjBqnME",
+  "description": "Проводник во внешнем электрическом поле"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_482",
+  "name": "Метод кругов равных высот",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "QnC9BiHpUm0",
+  "description": "Метод кругов равных высот"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_483",
+  "name": "Какого цвета снег?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "yyjj7g3Pfyw",
+  "description": "Какого цвета снег?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_484",
+  "name": "Куда приложена архимедова сила?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "0nQ_QvTySi4",
+  "description": "Куда приложена архимедова сила?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_485",
+  "name": "Электрофор Вольта и коронный разряд",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "eu4Z12knnPw",
+  "description": "Электрофор Вольта и коронный разряд"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_486",
+  "name": "Сопротивление воздуха ● 2",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "TJ9bEJoUJ0U",
+  "description": "Сопротивление воздуха ● 2"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_487",
+  "name": "Фоторезистор",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "Xt4dB387vmQ",
+  "description": "Фоторезистор"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_488",
+  "name": "Саксонская чаша для измерения времени",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "eaMWu4OUtMw",
+  "description": "Саксонская чаша для измерения времени"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_489",
+  "name": "Эффекты силы трения, или Как удержать слона?",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "i_2gXZeG7C0",
+  "description": "Эффекты силы трения, или Как удержать слона?"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_490",
+  "name": "Биения связанных маятников",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "QwKz4x1CNv0",
+  "description": "Биения связанных маятников"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_491",
+  "name": "Аэроакустика: сирена и скакалка",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "ljYa5U8MfrI",
+  "description": "Аэроакустика: сирена и скакалка"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_492",
+  "name": "Параметрический резонанс",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "FMWUoposLO0",
+  "description": "Параметрический резонанс"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_493",
+  "name": "Антициклон в чашке с водой",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "RRaFBSNsZQY",
+  "description": "Антициклон в чашке с водой"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_494",
+  "name": "Интерференция ультразвука",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "6iGcKh0PKSs",
+  "description": "Интерференция ультразвука"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_495",
+  "name": "Наклонная вертикаль",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "Eu90JgSESzY",
+  "description": "Наклонная вертикаль"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_496",
+  "name": "Три объяснения одного явления",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "BvDHuO82ApA",
+  "description": "Три объяснения одного явления"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_497",
+  "name": "Чирикающие шары",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "n55zFdPZT6Y",
+  "description": "Чирикающие шары"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_498",
+  "name": "Тонущие пузыри",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "qMRB2FlWHDM",
+  "description": "Тонущие пузыри"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_499",
+  "name": "Как воздух втекает в трубу и вытекает из неё",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "Ws519ejvLDQ",
+  "description": "Как воздух втекает в трубу и вытекает из неё"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_500",
+  "name": "Потеря устойчивости трубки при изгибе",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "myLJgQWU9uw",
+  "description": "Потеря устойчивости трубки при изгибе"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "lesson_501",
+  "name": "Газовый разряд в плазменном шаре ● 1",
+  "position": {
+  "x": 140,
+  "y": 130
+  },
+  "type": "lesson",
+  "parent": "Subsection_10",
+  "video": {
+  "codeVideo": "L3qn_WVO4io",
+  "description": "Газовый разряд в плазменном шаре ● 1"
+  },
+  "tags": ",,"
+  },
+  {
+  "id": "Section_2",
+  "name": "Физика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": null,
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_3",
+  "name": "Механика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_4",
+  "name": "Статика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_3",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_5",
+  "name": "Динамика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_3",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_6",
+  "name": "Кинематика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_3",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_7",
+  "name": "Теплота. Молекулярная физика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_8",
+  "name": "Свойства газов",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_7",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_9",
+  "name": "Теплопередача",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_7",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_10",
+  "name": "Фазовые превращения",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_7",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_11",
+  "name": "Тепловые двигатели",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_7",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_12",
+  "name": "Колебания и волны. Оптика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_13",
+  "name": "Механические колебания и волны",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_14",
+  "name": "Звук",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_15",
+  "name": "Электрические колебания",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_16",
+  "name": "Электромагнитные волны и свет",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_17",
+  "name": "Геометрическая оптика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_18",
+  "name": "Интерференция и дифракция волн",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_12",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_19",
+  "name": "Электричество и магнетизм",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_20",
+  "name": "Электростатика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_21",
+  "name": "Постоянный ток",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_22",
+  "name": "Электрохимия",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_23",
+  "name": "Магнитные явления",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_24",
+  "name": "Электромагнитная индукция",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_25",
+  "name": "Переменный ток",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_26",
+  "name": "Электрические машины",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_19",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_27",
+  "name": "Атомная и ядерная физика",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_28",
+  "name": "Строение атома",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_27",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_29",
+  "name": "Радиоактивность",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_27",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_30",
+  "name": "Ядерная энергия",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_27",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_31",
+  "name": "Астрономия",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_32",
+  "name": "Это интересно",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_33",
+  "name": "Физические парадоксы",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_32",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_34",
+  "name": "Задачи-оценки",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_32",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_35",
+  "name": "Задачи турнира юных физиков",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_32",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Section_36",
+  "name": "О физике и физиках",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "section",
+  "parent": "Section_2",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_37",
+  "name": "Рассказы об ученых",
+  "position": {
+  "x": 140,
+  "y": 460
+  },
+  "type": "subsection",
+  "parent": "Section_36",
+  "video": null,
+  "tags": null
+  },
+  {
+  "id": "Subsection_38",
+  "name": "Методика преподавания физики",
+  "position": {
+  "x": 40,
+  "y": 60
+  },
+  "type": "subsection",
+  "parent": "Section_36",
+  "video": null,
+  "tags": null
+  }
+  ]

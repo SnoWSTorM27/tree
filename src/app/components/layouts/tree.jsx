@@ -15,7 +15,7 @@ import nodes from "../../store/nodes.json";
 function Tree() {
   // const sections = useSelector(getSections());
   // const sectionsStatusLoading = useSelector(getSectionsLoadingStatus());
-  // const nodes = useSelector(getNodes());
+  const nodes = useSelector(getNodes());
   // const nodesStatusLoading = useSelector(getNodesLoadingStatus());
   const nodesStatusLoading = false;
   const [modalShow, setModalShow] = useState(false);
@@ -24,7 +24,9 @@ function Tree() {
   const [tags, setTags] = useState();
   const [searchLessons, setSearchLessons] = useState("");
   const [selectedCategory, setSelectedCategory] = useState();
-  const lessons = nodes.filter(node => node.type === "lesson");
+  // const nodes = nds.filter(node => node.type !== "lesson");
+  // const lessons = nodes.filter(node => node.type === "lesson");
+  // console.log(lessons);
   const set = new Set();
   // const categories = [{ _id: "1", name: "8 класс" }, { _id: "2", name: "7 класс" }];
 
@@ -42,11 +44,11 @@ function Tree() {
   }, [selectedCategory, searchLessons]);
 
   useEffect(() => {
-    if (lessons) {
+    if (nodes) {
       setIsLoading(false);
-      lessons.forEach(lesson => lesson.tags.forEach(tag => set.add(tag)));
-      set.delete(undefined);
-      setTags(set);
+      // lessons.forEach(lesson => lesson.tags.forEach(tag => set.add(tag)));
+      // set.delete(undefined);
+      // setTags(set);
     }
   }, []);
 
@@ -66,25 +68,25 @@ function Tree() {
     setSearchLessons("");
   };
 
-  if (lessons && tags) {
-    function filterLessons(data) {
-      const filteredLessons = searchLessons
-        ? data.filter(
-          (lesson) =>
-            lesson.name
-              .toLowerCase()
-              .indexOf(searchLessons.toLowerCase()) !== -1
-        )
-        : selectedCategory
-          ? data.filter(
-            (lesson) =>
-              lesson.tags.includes(selectedCategory)
-          )
-          : data;
-      return filteredLessons;
-    }
+  if (nodes) {
+    // function filterLessons(data) {
+    //   const filteredLessons = searchLessons
+    //     ? data.filter(
+    //       (lesson) =>
+    //         lesson.name
+    //           .toLowerCase()
+    //           .indexOf(searchLessons.toLowerCase()) !== -1
+    //     )
+    //     : selectedCategory
+    //       ? data.filter(
+    //         (lesson) =>
+    //           lesson.tags.includes(selectedCategory)
+    //       )
+    //       : data;
+    //   return filteredLessons;
+    // }
 
-    const filteredLessons = filterLessons(lessons);
+    // const filteredLessons = filterLessons(lessons);
 
     return (
       <>
@@ -100,26 +102,27 @@ function Tree() {
             </div>
             <div className="col-md-6">
               <div className="d-flex align-items-center">
-                <button className="btn btn-secondary mx-1" onClick={clearFilter}>
+                {/* <button className="btn btn-secondary mx-1" onClick={clearFilter}>
                   Очистить
                 </button>
                 <TagsList
                   selectedItem={selectedCategory}
                   items={tags}
                   onItemSelect={handleCategorySelect}
-                />
+                /> */}
               </div>
             </div>
           </div>
           <div className="row gutters-md">
             <div className="col-md-2 border border-info card">
               <h3 className="text-center card-header nowrap">Список уроков</h3>
-              {!isLoading ? <LessonsList lessons={filteredLessons}/> : <Loader />}
+              {/* {!isLoading ? <LessonsList lessons={filteredLessons}/> : <Loader />} */}
             </div>
             <div className="tree col-md-10">
               <ReactFlowProvider>
                 {!nodesStatusLoading
-                  ? <Flow sections={nodes} filteredLessons={filteredLessons} selectedCategory={selectedCategory} handleModal={handleModal}/>
+                  // ? <Flow sections={nodes} filteredLessons={filteredLessons} selectedCategory={selectedCategory} handleModal={handleModal}/>
+                  ? <Flow sections={nodes} handleModal={handleModal}/>
                   : <Loader />}
               </ReactFlowProvider>
             </div>
