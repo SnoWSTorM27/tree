@@ -35,7 +35,7 @@ export function transformToNodes(items) {
       data: { name: node.name, video: node.video },
       type: node.type,
       parent: node.parent,
-      position: node.name === "Физика" ? node.position : { x: parentX + 400 * defineDepth(node.type), y: node.position.y }
+      position: node.name === "Физика" ? node.position : { x: node.position.x, y: node.position.y }
     });
   }
 
