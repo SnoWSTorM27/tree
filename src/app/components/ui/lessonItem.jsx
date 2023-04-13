@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function LessonItem({ lesson }) {
   return (
-    <div className="d-flex justify-content-center align-items-center lesson-item-search">
+    <div className="d-flex justify-content-start align-items-center lesson-item-search">
       <span className="card-text mb-2 mt-2 fst-italic text-nowrap text-decoration-underline ">
         {lesson.name}
       </span>

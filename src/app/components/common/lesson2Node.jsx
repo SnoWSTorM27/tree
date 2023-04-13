@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Handle, Position } from "reactflow";
 import ProgressBar from "./progressBar";
 
-function SectionNode({ data }) {
+function Lesson2Node({ data }) {
   return (
     <div className="px-1 py-1 d-flex flex-row justify-content-center align-items-center">
       <div className="d-flex mx-2">
@@ -18,8 +18,8 @@ function SectionNode({ data }) {
     </div>
   );
 }
-SectionNode.propTypes = {
+Lesson2Node.propTypes = {
   data: PropTypes.object
 };
 
-export default memo(SectionNode);
+export default memo(Lesson2Node);

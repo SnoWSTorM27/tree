@@ -23,13 +23,13 @@ body,
 .react-flow__node-physics {
   border-radius: 50%;
 }
-.react-flow__node-lesson {
+/* .react-flow__node-lesson {
   border-radius: 50%;
   width: 1rem;
   height: 1rem;
   background-color: white;
-  /* border: 1px solid green;  */
-}
+  /* border: 1px solid green;  
+} */
 .completed {
   color:#fff;
   background-color: rgb(237, 250, 59);
@@ -79,6 +79,10 @@ body,
   color: #0BAAD1;
   background-color: #34417A;
   transition: all .5s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 7px;
 }
 .lesson-item-search:hover {
   color: #EDD811;

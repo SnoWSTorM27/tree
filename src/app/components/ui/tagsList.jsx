@@ -12,15 +12,6 @@ function TagsList({
   return (
     <div className="btn-group">
       {tags.map((tag) => (
-        // <li
-        //   key={item[valueProperty]}
-        //   className={
-        //     "list-group-item text-center d-flex justify-content-center align-items-center" +
-        //           (item === selectedItem ? " active" : "")
-        //   }
-        //   onClick={() => onItemSelect(item)}
-        //   role="button"
-        // >
         <button
           key={tag}
           className={"btn btn-outline-primary" + (JSON.stringify(tag) === JSON.stringify(selectedItem) ? " active" : "")}

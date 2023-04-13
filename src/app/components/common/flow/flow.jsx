@@ -17,6 +17,7 @@ import ReactFlow, {
 // } from "./initial-elements";
 
 import LessonNode from "../lessonNode";
+import Lesson2Node from "../lesson2Node";
 import SectionNode from "../sectionNode";
 import SubsectionNode from "../subsectionNode";
 
@@ -31,14 +32,20 @@ import { updateNodesList } from "../../../store/nodes";
 const nodeTypes = {
   section: SectionNode,
   subsection: SubsectionNode,
-  lesson: LessonNode,
+  lesson: Lesson2Node,
   physics: PhysicsNode
 };
 
 const flowKey = "dinamic-flow";
 
 const hide = (hidden) => (nodeOrEdge) => {
-  // if (nodeOrEdge.target === "2" || nodeOrEdge.target === "8" || (Number(nodeOrEdge.id) > 7)) {
+  for (const prop in hidden) {
+    if (nodeOrEdge.parent === prop || nodeOrEdge.target === prop) {
+      nodeOrEdge.hidden = hidden[prop];
+      return nodeOrEdge;
+    }
+  }
+  // if (nodeOrEdge.parent === nodeId) {
   //   nodeOrEdge.hidden = hidden;
   //   return nodeOrEdge;
   // }
@@ -54,25 +61,26 @@ const blur = (search) => (nodeOrEdge) => {
   }
   return nodeOrEdge;
 };
-let section = "";
+// let section = "";
 const filter = (items, count) => (nodeOrEdge) => {
   nodeOrEdge.style = { opacity: "1" };
   if (items.length === count) return nodeOrEdge;
   for (const lesson of items) {
     if (nodeOrEdge.id === lesson.id) return nodeOrEdge;
-    if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
-    if (nodeOrEdge.source === lesson.parent) {
-      section = nodeOrEdge.target;
-      return nodeOrEdge;
-    }
-    if (nodeOrEdge.id === section) return nodeOrEdge;
-    if (nodeOrEdge.source === section) return nodeOrEdge;
-    if (nodeOrEdge.type === "physics") return nodeOrEdge;
+    // if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
+    // if (nodeOrEdge.source === lesson.parent) {
+    //   section = nodeOrEdge.target;
+    //   console.log(section);
+    //   return nodeOrEdge;
+    // }
+    // if (nodeOrEdge.id === section) return nodeOrEdge;
+    // if (nodeOrEdge.source === section) return nodeOrEdge;
+    // if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
   }
   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13") return nodeOrEdge;
   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13" || nodeOrEdge.id === "8" || nodeOrEdge.id === "2" || nodeOrEdge.source === "2" || nodeOrEdge.source === "8" || nodeOrEdge.id === "1") return nodeOrEdge;
   if (items.length !== count) {
-    nodeOrEdge.style = { opacity: "0.3" };
+    nodeOrEdge.style = { opacity: "0.1" };
   }
   return nodeOrEdge;
 };
@@ -82,14 +90,19 @@ const onInit = (reactFlowInstance) =>
 
 const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   const dispatch = useDispatch();
+  const initObj = {};
   const initialNodes = transformToNodes(sections);
   const countLessons = initialNodes.filter(node => node.type === "lesson").length;
+  const subsections = initialNodes.filter(node => node.type === "subsection");
+  subsections.forEach(sub => {
+    initObj[sub.id] = false;
+  });
   const edges1 = transformToEdges(sections, "1");
   // const initialNodes = [...ini ...nodes1];
   const initialEdges = [...edges1];
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-  const [hidden, setHidden] = useState(true);
+  const [hidden, setHidden] = useState(initObj);
   const [search, setSearch] = useState(false);
   // const [rfInstance, setRfInstance] = useState(null);
   const { setViewport } = useReactFlow();
@@ -106,9 +119,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     if (rfInstance) {
       const flow = rfInstance.toObject();
       const nodes = flow.nodes;
-      console.log(nodes);
       const response = transformForResponse(sections, nodes);
-      console.log(response);
       dispatch(updateNodesList(response));
       localStorage.setItem(flowKey, JSON.stringify(flow));
     }
@@ -137,15 +148,19 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     setNodes((nds) => nds.map(blur(search)));
     setEdges((eds) => eds.map(blur(search)));
   }, [search]);
-  // useEffect(() => {
-  //   setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
-  //   setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
-  // }, [filteredLessons]);
+  useEffect(() => {
+    setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
+    setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
+  }, [filteredLessons]);
 
   const handleClick = (e, node) => {
-    // if (node.id === "2") {
-    //   setHidden(prevState => !prevState);
-    // }
+    if (node.type === "subsection") {
+      setHidden((prevState) => ({
+        ...prevState,
+        [node.id]: !prevState[node.id]
+      }));
+      console.log(hidden);
+    }
     if (node.type === "lesson") {
       handleModal(node);
     }

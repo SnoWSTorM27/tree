@@ -13,8 +13,8 @@ function SubsectionNode({ data }) {
         <ProgressBar completedItems={5} totalItems={5} />
       </div> */}
 
-      <Handle type="target" position={Position.Top} className="w-16 bg-green" />
-      <Handle type="source" position={Position.Bottom} className="w-16 bg-green" />
+      <Handle type="target" position={Position.Right} className="" />
+      <Handle type="source" position={Position.Left} className="" />
     </div>
   );
 }
