@@ -62,25 +62,45 @@ const blur = (search) => (nodeOrEdge) => {
   return nodeOrEdge;
 };
 // let section = "";
+// const filter = (items, count) => (nodeOrEdge) => {
+//   nodeOrEdge.style = { opacity: "1" };
+//   if (items.length === count) return nodeOrEdge;
+//   for (const lesson of items) {
+//     if (nodeOrEdge.id === lesson.id) return nodeOrEdge;
+//     // if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
+//     // if (nodeOrEdge.source === lesson.parent) {
+//     //   section = nodeOrEdge.target;
+//     //   console.log(section);
+//     //   return nodeOrEdge;
+//     // }
+//     // if (nodeOrEdge.id === section) return nodeOrEdge;
+//     // if (nodeOrEdge.source === section) return nodeOrEdge;
+//     // if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
+//   }
+//   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13") return nodeOrEdge;
+//   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13" || nodeOrEdge.id === "8" || nodeOrEdge.id === "2" || nodeOrEdge.source === "2" || nodeOrEdge.source === "8" || nodeOrEdge.id === "1") return nodeOrEdge;
+//   if (items.length !== count) {
+//     nodeOrEdge.style = { opacity: "0.1" };
+//   }
+//   return nodeOrEdge;
+// };
+
 const filter = (items, count) => (nodeOrEdge) => {
   nodeOrEdge.style = { opacity: "1" };
   if (items.length === count) return nodeOrEdge;
   for (const lesson of items) {
     if (nodeOrEdge.id === lesson.id) return nodeOrEdge;
-    // if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
-    // if (nodeOrEdge.source === lesson.parent) {
-    //   section = nodeOrEdge.target;
-    //   console.log(section);
-    //   return nodeOrEdge;
-    // }
-    // if (nodeOrEdge.id === section) return nodeOrEdge;
-    // if (nodeOrEdge.source === section) return nodeOrEdge;
-    // if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
+    if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
+    if (nodeOrEdge.source === lesson.id) return nodeOrEdge;
+    if (nodeOrEdge.source === lesson.parent) {
+      return nodeOrEdge;
+    }
+    if (nodeOrEdge.id === lesson.section) return nodeOrEdge;
+    if (nodeOrEdge.source === lesson.section) return nodeOrEdge;
+    if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
   }
-  // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13") return nodeOrEdge;
-  // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13" || nodeOrEdge.id === "8" || nodeOrEdge.id === "2" || nodeOrEdge.source === "2" || nodeOrEdge.source === "8" || nodeOrEdge.id === "1") return nodeOrEdge;
   if (items.length !== count) {
-    nodeOrEdge.style = { opacity: "0.1" };
+    nodeOrEdge.style = { opacity: "0" };
   }
   return nodeOrEdge;
 };
@@ -120,7 +140,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
       const flow = rfInstance.toObject();
       const nodes = flow.nodes;
       const response = transformForResponse(sections, nodes);
-      dispatch(updateNodesList(response));
+      // dispatch(updateNodesList(response));
       localStorage.setItem(flowKey, JSON.stringify(flow));
     }
   }, [rfInstance]);
@@ -180,6 +200,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
         nodeTypes={nodeTypes}
         onNodeClick={(e, node) => handleClick(e, node)}
         fitView
+        minZoom="0.1"
       >
         <MiniMap
           nodeStrokeColor={(n) => {

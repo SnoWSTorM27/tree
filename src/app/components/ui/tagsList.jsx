@@ -8,7 +8,8 @@ function TagsList({
   onItemSelect,
   selectedItem
 }) {
-  const tags = [...items.keys()];
+  const tags = [...items.keys()].filter(el => ["7 класс", "8 класс", "9 класс", "10 класс", "11 класс"].includes(el));
+
   return (
     <div className="btn-group">
       {tags.map((tag) => (

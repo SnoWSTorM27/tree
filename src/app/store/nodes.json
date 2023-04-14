@@ -1,174 +1,836 @@
 [ 
   {
-    "id":"1",
-    "name":"Физика",
-    "position": { "x": 250, "y": 700 },
-    "type": "physics",
-    "tags": []
-  },
-  {
-    "id":"2",
-    "name":"Механика",
-    "position": { "x": 200, "y": 310 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"3",
-    "name":"Колебания и волны. Оптика",
-    "position": { "x": 10, "y": 380 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"4",
-    "name":"Астрономия",
-    "position": { "x": -210, "y": 495 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"5",
-    "name":"Атомная и ядерная физика",
-    "position": { "x": 309, "y": 355 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"6",
-    "name":"Теплота. Молекулярная физика",
-    "position": { "x": 475, "y": 405 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"7",
-    "name":"Электричество и магнетизм",
-    "position": { "x": 690, "y": 475 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"8",
-    "name":"Это интересно",
-    "position": { "x": -135, "y": 430 },
-    "type": "section",
-    "parent": "1",
-    "tags": []
-  },
-  {
-    "id":"9",
-    "name":"Работа и энергия",
-    "position": { "x": 250, "y": 150 },
-    "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"10",
-    "name":"Механическая работа",
-    "position": { "x": 250, "y": 110 },
+    "id": "lesson_476",
+    "name": "Три давления? Нет, три энергии!",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
     "type": "lesson",
-    "parent": "9",
-    "tags": [],
+    "parent": "Subsection_10",
     "video": {
-      "codeVideo": "Ox07SKVfGSE",
-      "description": " Для совершения работы нужна энергия. Энергия — это запасённая возможность совершить работу. Энергия запасена в потоке воды или ветра, в порохе и бензине.\nВеличина механической работы определяется произведением силы на путь. 1 джоуль — это работа, которую совершает сила в 1 ньютон на перемещении в 1 м.\nМеханизмы позволяют выигрывать в силе, проигрывая в расстоянии; однако выиграть с их помощью в совершённой работе невозможно."  
-    }
-  },
-  {
-    "id":"11",
-    "name":"Криволинейное движение",
-    "position": { "x": 352, "y": 188 },
-    "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"12",
-    "name":"Динамика",
-    "position": { "x": 30, "y": 200 },
-    "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"13",
-    "name":"Статика",
-    "position": { "x": 133, "y": 162 },
-    "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"14",
-    "name":"Центр тяжести",
-    "position": { "x": 133, "y": 125 },
+    "codeVideo": "QV-d0oGInSQ",
+    "description": "Три давления? Нет, три энергии!"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_477",
+    "name": "Отчего разрушился Такомский мост?",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
     "type": "lesson",
-    "parent": "13",
-    "tags": [],
+    "parent": "Subsection_10",
     "video": {
-      "codeVideo": "Pt8Mb6i5ZeA",
-      "description": "Если весомую пластину подвешивать за разные её точки, линии всех отвесов пройдут через одну точку — центр тяжести этой пластины. Центр тяжести пластины при этом всегда стремиться занять наинизшее положение. Если пластину подвесить за её центр тяжести, она будет пребывать в безразличном равновесии, и её части по разные стороны от оси подвеса будут уравновешивать друг друга. Центр тяжести связан с равновесием, и от положения центра тяжести зависит, будет ли равновесие устойчивым или нет. На этом основан ряд замечательных опытов, похожих на удивительные фокусы. В задачах об отыскании центра тяжести физика сближается с геометрией, и наши рассуждения становятся похожими на доказательства геометрических теорем. "  
-    }
-  },
-  {
-    "id":"15",
-    "name":"Всемирное тяготение",
-    "position": { "x": 545, "y": 233 },
+    "codeVideo": "S9HZL6UUH5k",
+    "description": "Отчего разрушился Такомский мост?"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_478",
+    "name": "Гальваническая батарея",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "vXSfCuMLBio",
+    "description": "Гальваническая батарея"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_479",
+    "name": "Фотоаппарат как оптический прибор",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "8AkqwqUapMY",
+    "description": "Фотоаппарат как оптический прибор"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_480",
+    "name": "Куда исчезла энергия пружины?",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "8w-1SF6qPtc",
+    "description": "Куда исчезла энергия пружины?"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_481",
+    "name": "Проводник во внешнем электрическом поле",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "53YvTjBqnME",
+    "description": "Проводник во внешнем электрическом поле"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_482",
+    "name": "Метод кругов равных высот",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "QnC9BiHpUm0",
+    "description": "Метод кругов равных высот"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_483",
+    "name": "Какого цвета снег?",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "yyjj7g3Pfyw",
+    "description": "Какого цвета снег?"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_484",
+    "name": "Куда приложена архимедова сила?",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "0nQ_QvTySi4",
+    "description": "Куда приложена архимедова сила?"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_485",
+    "name": "Электрофор Вольта и коронный разряд",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "eu4Z12knnPw",
+    "description": "Электрофор Вольта и коронный разряд"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_486",
+    "name": "Сопротивление воздуха ● 2",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "TJ9bEJoUJ0U",
+    "description": "Сопротивление воздуха ● 2"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_487",
+    "name": "Фоторезистор",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "Xt4dB387vmQ",
+    "description": "Фоторезистор"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_488",
+    "name": "Саксонская чаша для измерения времени",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "eaMWu4OUtMw",
+    "description": "Саксонская чаша для измерения времени"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_489",
+    "name": "Эффекты силы трения, или Как удержать слона?",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "i_2gXZeG7C0",
+    "description": "Эффекты силы трения, или Как удержать слона?"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_490",
+    "name": "Биения связанных маятников",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "QwKz4x1CNv0",
+    "description": "Биения связанных маятников"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_491",
+    "name": "Аэроакустика: сирена и скакалка",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "ljYa5U8MfrI",
+    "description": "Аэроакустика: сирена и скакалка"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_492",
+    "name": "Параметрический резонанс",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "FMWUoposLO0",
+    "description": "Параметрический резонанс"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_493",
+    "name": "Антициклон в чашке с водой",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "RRaFBSNsZQY",
+    "description": "Антициклон в чашке с водой"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_494",
+    "name": "Интерференция ультразвука",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "6iGcKh0PKSs",
+    "description": "Интерференция ультразвука"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_495",
+    "name": "Наклонная вертикаль",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "Eu90JgSESzY",
+    "description": "Наклонная вертикаль"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_496",
+    "name": "Три объяснения одного явления",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "BvDHuO82ApA",
+    "description": "Три объяснения одного явления"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_497",
+    "name": "Чирикающие шары",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "n55zFdPZT6Y",
+    "description": "Чирикающие шары"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_498",
+    "name": "Тонущие пузыри",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "qMRB2FlWHDM",
+    "description": "Тонущие пузыри"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_499",
+    "name": "Как воздух втекает в трубу и вытекает из неё",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "Ws519ejvLDQ",
+    "description": "Как воздух втекает в трубу и вытекает из неё"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_500",
+    "name": "Потеря устойчивости трубки при изгибе",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "myLJgQWU9uw",
+    "description": "Потеря устойчивости трубки при изгибе"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "lesson_501",
+    "name": "Газовый разряд в плазменном шаре ● 1",
+    "position": {
+    "x": 140,
+    "y": 130
+    },
+    "type": "lesson",
+    "parent": "Subsection_10",
+    "video": {
+    "codeVideo": "L3qn_WVO4io",
+    "description": "Газовый разряд в плазменном шаре ● 1"
+    },
+    "tags": ",,"
+    },
+    {
+    "id": "Section_2",
+    "name": "Физика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": null,
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_3",
+    "name": "Механика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_4",
+    "name": "Статика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
     "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"16",
-    "name":"Гидро- и аэростатика",
-    "position": { "x": -126, "y": 251 },
+    "parent": "Section_3",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_5",
+    "name": "Динамика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
     "type": "subsection",
-    "parent": "2",
-    "tags": []
-  },
-  {
-    "id":"17",
-    "name":"Трубка Пито",
-    "position": { "x": -133, "y": 233 },
-    "type": "lesson",
-    "parent": "16",
-    "tags": ["7 класс"],
-    "video": {
-      "codeVideo": "F2x7MEJnVjk",
-      "description": "Трубка Пито измеряет избыточное давление, создаваемое за счёт воздушного напора, и позволяет рассчитывать скорость воздушного потока относительно самолёта, или, что то же самое, скорость самолёта относительно воздуха."  
+    "parent": "Section_3",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_6",
+    "name": "Кинематика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_3",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_7",
+    "name": "Теплота. Молекулярная физика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_8",
+    "name": "Свойства газов",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_7",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_9",
+    "name": "Теплопередача",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_7",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_10",
+    "name": "Фазовые превращения",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_7",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_11",
+    "name": "Тепловые двигатели",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_7",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_12",
+    "name": "Колебания и волны. Оптика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_13",
+    "name": "Механические колебания и волны",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_14",
+    "name": "Звук",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_15",
+    "name": "Электрические колебания",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_16",
+    "name": "Электромагнитные волны и свет",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_17",
+    "name": "Геометрическая оптика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_18",
+    "name": "Интерференция и дифракция волн",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_12",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_19",
+    "name": "Электричество и магнетизм",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_20",
+    "name": "Электростатика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_21",
+    "name": "Постоянный ток",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_22",
+    "name": "Электрохимия",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_23",
+    "name": "Магнитные явления",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_24",
+    "name": "Электромагнитная индукция",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_25",
+    "name": "Переменный ток",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_26",
+    "name": "Электрические машины",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_19",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_27",
+    "name": "Атомная и ядерная физика",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_28",
+    "name": "Строение атома",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_27",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_29",
+    "name": "Радиоактивность",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_27",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_30",
+    "name": "Ядерная энергия",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_27",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_31",
+    "name": "Астрономия",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_32",
+    "name": "Это интересно",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_33",
+    "name": "Физические парадоксы",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_32",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_34",
+    "name": "Задачи-оценки",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_32",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_35",
+    "name": "Задачи турнира юных физиков",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_32",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Section_36",
+    "name": "О физике и физиках",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "section",
+    "parent": "Section_2",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_37",
+    "name": "Рассказы об ученых",
+    "position": {
+    "x": 140,
+    "y": 460
+    },
+    "type": "subsection",
+    "parent": "Section_36",
+    "video": null,
+    "tags": null
+    },
+    {
+    "id": "Subsection_38",
+    "name": "Методика преподавания физики",
+    "position": {
+    "x": 40,
+    "y": 60
+    },
+    "type": "subsection",
+    "parent": "Section_36",
+    "video": null,
+    "tags": null
     }
-  },
-  {
-    "id":"18",
-    "name":"Маятник",
-    "position": { "x": 40, "y": 170 },
-    "type": "lesson",
-    "parent": "12",
-    "tags": ["8 класс"],
-    "video": {
-      "codeVideo": "JJFczJe-jqc",
-      "description": "Мы изучаем, как период колебаний маятника зависит от уместных здесь параметров. От массы груза он не зависит вообще, и от амплитуды при малых углах он зависит очень слабо. А вот при увеличении длины подвеса период растёт как квадратный корень из этой длины."  
-    }
-  },
-  {
-    "id":"19",
-    "name":"Соударение шаров",
-    "position": { "x": 60, "y": 170 },
-    "type": "lesson",
-    "parent": "12",
-    "tags": ["8 класс","9 класс"],
-    "video": {
-      "codeVideo": "N1OZqtmzB50",
-      "description": "Подвесим два одинаковых стальных шара на нитях, отведём один шар и отпустим его. После соударения он остановится, передав свою скорость второму шару. Так же ведут себя и шары на бильярдном столе при сильном ударе. Если удар нецентральный, бильярдные шары разлетаются после удара под прямым углом друг к другу. Эти факты легко доказываются переходом в систему центра масс обоих шаров."  
-    }
-  }
-  
 ]

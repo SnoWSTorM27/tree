@@ -10,7 +10,7 @@ import { getNodes, getNodesLoadingStatus } from "../../store/nodes";
 import ModalWindow from "../common/modalWindow";
 import LessonsList from "../ui/lessonList";
 import TagsList from "../ui/tagsList";
-import nodes from "../../store/nodes.json";
+import { transformLessons } from "../../utils/transformLessons";
 
 function Tree() {
   // const sections = useSelector(getSections());
@@ -24,8 +24,8 @@ function Tree() {
   const [tags, setTags] = useState();
   const [searchLessons, setSearchLessons] = useState("");
   const [selectedCategory, setSelectedCategory] = useState();
-  // const nodes = nds.filter(node => node.type !== "lesson");
-  const lessons = nodes.filter(node => node.type === "lesson");
+  // const lessons = nodes.filter(node => node.type === "lesson");
+  const lessons = transformLessons(nodes);
   // console.log(lessons);
   const set = new Set();
   // const categories = [{ _id: "1", name: "8 класс" }, { _id: "2", name: "7 класс" }];
