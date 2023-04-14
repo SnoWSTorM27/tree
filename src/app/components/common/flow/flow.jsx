@@ -140,7 +140,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
       const flow = rfInstance.toObject();
       const nodes = flow.nodes;
       const response = transformForResponse(sections, nodes);
-      // dispatch(updateNodesList(response));
+      dispatch(updateNodesList(response));
       localStorage.setItem(flowKey, JSON.stringify(flow));
     }
   }, [rfInstance]);
