@@ -125,7 +125,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   const [hidden, setHidden] = useState(initObj);
   const [search, setSearch] = useState(false);
   // const [rfInstance, setRfInstance] = useState(null);
-  const { setViewport } = useReactFlow();
+  const { setViewport, setCenter } = useReactFlow();
   const rfInstance = useReactFlow();
 
   // console.log(initialNodes);
@@ -173,20 +173,37 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
   }, [filteredLessons]);
 
-  const handleClick = (e, node) => {
+  // const handleClick = (e, node) => {
+  //   if (node.type === "subsection") {
+  //     setHidden((prevState) => ({
+  //       ...prevState,
+  //       [node.id]: !prevState[node.id]
+  //     }));
+  //   }
+  //   if (node.type === "lesson") {
+  //     handleModal(node);
+  //   }
+  //   console.log(node);
+  //   // console.log(e);
+  // };
+  const handleClick = useCallback((e, node) => {
+    const { x: zoomX, y: zoomY } = node.position;
+    setCenter(zoomX + 600, zoomY + 100, { zoom: 0.8, duration: 1300 });
+    // if (node.type === "subsection") {
+    //   setHidden(prevState => !prevState);
+    // }
     if (node.type === "subsection") {
       setHidden((prevState) => ({
         ...prevState,
         [node.id]: !prevState[node.id]
       }));
-      console.log(hidden);
     }
     if (node.type === "lesson") {
       handleModal(node);
     }
     console.log(node);
     // console.log(e);
-  };
+  }, [setCenter]);
 
   return (
     <div style={{ height: 800 }}>
