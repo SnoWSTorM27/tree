@@ -7,6 +7,7 @@ import NavBar from "./components/ui/navBar";
 import AppLoader from "./components/ui/hoc/appLoader";
 import Section from "./components/layouts/section";
 import Tree from "./components/layouts/tree";
+import d3Tree from "./components/layouts/d3tree";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           {/* <Route path="/login/:type?" component={Login} /> */}
           <Route exact path="/" component={Tree} />
-          <Route path="/tree" component={Tree} />
+          <Route path="/d3tree" component={d3Tree} />
           {/* <Route path="/:section?/:subsection?" component={Section} /> */}
           <Redirect to="/" />
         </Switch>
