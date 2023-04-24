@@ -15,7 +15,7 @@ function NavBar() {
         </Link>
       </li>
       <li className="nav-link d-flex justify-content-center align-items-center mx-1">
-        <Link to="/d3tree" className="nav-link">Дерево D3</Link>
+        <Link to="/" className="nav-link">Дерево D3</Link>
       </li>
       {/* <li className="d-flex justify-content-center align-items-center ms-auto">
         { isLoggedIn ? (

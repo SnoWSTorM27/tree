@@ -16,8 +16,8 @@ function App() {
         <NavBar />
         <Switch>
           {/* <Route path="/login/:type?" component={Login} /> */}
-          <Route exact path="/" component={Tree} />
-          <Route path="/d3tree" component={d3Tree} />
+          {/* <Route exact path="/" component={Tree} /> */}
+          <Route path="/" component={d3Tree} />
           {/* <Route path="/:section?/:subsection?" component={Section} /> */}
           <Redirect to="/" />
         </Switch>
