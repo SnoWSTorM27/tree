@@ -75,7 +75,7 @@ function Tree() {
   //   setSearchLessons("");
   // };
 
-  if (lessons && tags) {
+  if (lessons && tags && nodes) {
     function filterLessons(data) {
       const filteredLessons = searchLessons
         ? data.filter(

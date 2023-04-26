@@ -1,5 +1,6 @@
 import React, { useCallback, useState, useEffect } from "react";
 import PropTypes from "prop-types";
+import dagre from "dagre";
 import { useDispatch } from "react-redux";
 import ReactFlow, {
   addEdge,
@@ -105,6 +106,44 @@ const filter = (items, count) => (nodeOrEdge) => {
   return nodeOrEdge;
 };
 
+const dagreGraph = new dagre.graphlib.Graph();
+dagreGraph.setDefaultEdgeLabel(() => ({}));
+
+const nodeWidth = 300;
+const nodeHeight = -15;
+
+const getLayoutedElements = (nodes, edges, direction = "LR") => {
+  // const isHorizontal = direction === 'LR';
+  dagreGraph.setGraph({ rankdir: direction });
+
+  nodes.forEach((node) => {
+    dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
+  });
+
+  edges.forEach((edge) => {
+    dagreGraph.setEdge(edge.source, edge.target);
+  });
+
+  dagre.layout(dagreGraph);
+
+  nodes.forEach((node) => {
+    const nodeWithPosition = dagreGraph.node(node.id);
+    // node.targetPosition = isHorizontal ? 'left' : 'top';
+    // node.sourcePosition = isHorizontal ? 'right' : 'bottom';
+
+    // We are shifting the dagre node position (anchor=center center) to the top left
+    // so it matches the React Flow node anchor point (top left).
+    node.position = {
+      x: -nodeWithPosition.x - nodeWidth / 2,
+      y: nodeWithPosition.y - nodeHeight / 2
+    };
+
+    return node;
+  });
+
+  return { layoutedNodes: nodes, layoutedEdges: edges };
+};
+
 const onInit = (reactFlowInstance) =>
   console.log("flow loaded:", reactFlowInstance);
 
@@ -112,16 +151,24 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   const dispatch = useDispatch();
   const initObj = {};
   const initialNodes = transformToNodes(sections);
+  const edges1 = transformToEdges(sections, "1");
+  const initialEdges = [...edges1];
+  const nodesWithoutLessons = initialNodes.filter(node => node.type !== "lesson");
+  const edgesWithoutLessons = initialEdges.filter(edge => edge.source.indexOf("lesson") === -1);
+  const nodesWithLessons = initialNodes.filter(node => node.type === "lesson");
+  const edgesWithLessons = initialEdges.filter(edge => edge.source.indexOf("lesson") !== -1);
   const countLessons = initialNodes.filter(node => node.type === "lesson").length;
   const subsections = initialNodes.filter(node => node.type === "subsection");
   subsections.forEach(sub => {
-    initObj[sub.id] = false;
+    initObj[sub.id] = true;
   });
-  const edges1 = transformToEdges(sections, "1");
   // const initialNodes = [...ini ...nodes1];
-  const initialEdges = [...edges1];
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
+  const { layoutedNodes, layoutedEdges } = getLayoutedElements(
+    nodesWithoutLessons,
+    edgesWithoutLessons
+  );
+  const [nodes, setNodes, onNodesChange] = useNodesState(layoutedNodes);
+  const [edges, setEdges, onEdgesChange] = useEdgesState(layoutedEdges);
   const [hidden, setHidden] = useState(initObj);
   const [search, setSearch] = useState(false);
   // const [rfInstance, setRfInstance] = useState(null);
@@ -160,18 +207,42 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     restoreFlow();
   }, [setNodes, setViewport]);
 
+  // useEffect(() => {
+  //   setNodes((nds) => nds.map(hide(hidden)));
+  //   setEdges((eds) => eds.map(hide(hidden)));
+  // }, [hidden]);
   useEffect(() => {
-    setNodes((nds) => nds.map(hide(hidden)));
-    setEdges((eds) => eds.map(hide(hidden)));
+    expandAndCollapseSubsections(hidden);
   }, [hidden]);
-  useEffect(() => {
-    setNodes((nds) => nds.map(blur(search)));
-    setEdges((eds) => eds.map(blur(search)));
-  }, [search]);
   useEffect(() => {
     setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
     setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
   }, [filteredLessons]);
+
+  const totalNodes = [];
+  const totalEdges = [];
+  function expandAndCollapseSubsections() {
+    // debugger;
+    for (const prop in hidden) {
+      const children = nodesWithLessons.filter(el => el.parent === prop);
+      const childrenEdge = edgesWithLessons.filter(el => el.target === prop);
+      if (!hidden[prop]) {
+        children.forEach(el => totalNodes.push(el));
+        childrenEdge.forEach(el => totalEdges.push(el));
+      } else {
+        totalNodes.filter(el => !children.includes(el));
+        totalEdges.filter(el => !childrenEdge.includes(el));
+      }
+    }
+    const { layoutedNodes: lnds, layoutedEdges: leds } = getLayoutedElements(
+      [...nodesWithoutLessons, ...totalNodes],
+      [...edgesWithoutLessons, ...totalEdges]
+    );
+    // console.log("layoutedNodes", lnds);
+    // console.log("layoutedEdges", leds);
+    setNodes(lnds);
+    setEdges(leds);
+  };
 
   // const handleClick = (e, node) => {
   //   if (node.type === "subsection") {
