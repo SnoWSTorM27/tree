@@ -106,13 +106,12 @@ const filter = (items, count) => (nodeOrEdge) => {
   return nodeOrEdge;
 };
 
-const dagreGraph = new dagre.graphlib.Graph();
-dagreGraph.setDefaultEdgeLabel(() => ({}));
-
-const nodeWidth = 300;
-const nodeHeight = -15;
-
 const getLayoutedElements = (nodes, edges, direction = "LR") => {
+  const dagreGraph = new dagre.graphlib.Graph();
+  dagreGraph.setDefaultEdgeLabel(() => ({}));
+
+  const nodeWidth = 300;
+  const nodeHeight = -15;
   // const isHorizontal = direction === 'LR';
   dagreGraph.setGraph({ rankdir: direction });
 
@@ -293,7 +292,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
         <MiniMap
           nodeStrokeColor={(n) => {
             if (n.style?.background) return n.style.background;
-            if (n.type === "lesson") return "#13f007";
+            if (n.type === "lesson") return "green";
             if (n.type === "section") return "#ad690a";
             if (n.type === "subsection") return "#ad690a";
             if (n.type === "physics") return "#000";
