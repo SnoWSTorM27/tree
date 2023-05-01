@@ -21,6 +21,11 @@ body,
   background-color: white;
   border-radius: .5rem;
 }
+.react-flow__node-lesson:hover {
+  color: #fff;
+  background-color: rgb(0, 127, 0);
+  cursor: pointer;
+}
 /* .react-flow__node-lesson {
   border-radius: 50%;
   width: 1rem;

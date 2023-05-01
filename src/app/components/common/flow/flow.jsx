@@ -146,7 +146,7 @@ const getLayoutedElements = (nodes, edges, direction = "LR") => {
 const onInit = (reactFlowInstance) =>
   console.log("flow loaded:", reactFlowInstance);
 
-const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
+const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLesson }) => {
   const dispatch = useDispatch();
   const initObj = {};
   const initialNodes = transformToNodes(sections);
@@ -170,6 +170,8 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   const [edges, setEdges, onEdgesChange] = useEdgesState(layoutedEdges);
   const [hidden, setHidden] = useState(initObj);
   const [search, setSearch] = useState(false);
+  const [zoom, setZoom] = useState("Section_2");
+  const [zoomLsn, setZoomLsn] = useState("");
   // const [rfInstance, setRfInstance] = useState(null);
   const { setViewport, setCenter } = useReactFlow();
   const rfInstance = useReactFlow();
@@ -210,9 +212,9 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
   //   setNodes((nds) => nds.map(hide(hidden)));
   //   setEdges((eds) => eds.map(hide(hidden)));
   // }, [hidden]);
-  useEffect(() => {
-    expandAndCollapseSubsections(hidden);
-  }, [hidden]);
+  // useEffect(() => {
+  //   expandAndCollapseSubsections(hidden);
+  // }, [hidden]);
   useEffect(() => {
     setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
     setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
@@ -243,22 +245,43 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons }) => {
     setEdges(leds);
   };
 
-  // const handleClick = (e, node) => {
-  //   if (node.type === "subsection") {
-  //     setHidden((prevState) => ({
-  //       ...prevState,
-  //       [node.id]: !prevState[node.id]
-  //     }));
-  //   }
-  //   if (node.type === "lesson") {
-  //     handleModal(node);
-  //   }
-  //   console.log(node);
-  //   // console.log(e);
-  // };
+  const handleMoveZoomCenterNode = (nodes, zoom) => {
+    const newPositionsNode = nodes.find(n => n.id === zoom)?.position;
+    const { x: zoomX, y: zoomY } = newPositionsNode;
+    setCenter(zoomX + 700, zoomY + 50, { zoom: 0.8, duration: 800 });
+  };
+
+  useEffect(() => {
+    // console.log(zoomLesson);
+    if (zoomLesson) {
+      setHidden((prevState) => ({
+        ...prevState,
+        [zoomLesson?.parent]: false
+      }));
+      setTimeout(() => {
+        setZoomLsn(zoomLesson.id);
+      }, 0);
+    }
+  }, [zoomLesson, zoomLsn]);
+
+  useEffect(() => {
+    if (!zoomLsn) return;
+    setTimeout(() => {
+      handleMoveZoomCenterNode(nodes, zoomLsn);
+    }, 0);
+  }, [nodes, zoomLsn]);
+  useEffect(() => {
+    handleMoveZoomCenterNode(nodes, zoom);
+  }, [nodes, zoom]);
+  useEffect(() => {
+    expandAndCollapseSubsections(hidden);
+  }, [hidden]);
+
   const handleClick = useCallback((e, node) => {
-    const { x: zoomX, y: zoomY } = node.position;
-    setCenter(zoomX + 600, zoomY + 100, { zoom: 0.8, duration: 1300 });
+    if (node.type !== "lesson") {
+      setZoom(node.id);
+      // handleMoveCenterNode(node);
+    }
     // if (node.type === "subsection") {
     //   setHidden(prevState => !prevState);
     // }
@@ -335,7 +358,8 @@ Flow.propTypes = {
   sections: PropTypes.array,
   filteredLessons: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   selectedCategory: PropTypes.string,
-  handleModal: PropTypes.func
+  handleModal: PropTypes.func,
+  zoomLesson: PropTypes.object
 };
 
 // function Flow(props) {

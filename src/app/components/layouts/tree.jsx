@@ -22,6 +22,7 @@ function Tree() {
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState({});
   const [tags, setTags] = useState();
+  const [zoomLesson, setZoomLesson] = useState();
   const [searchLessons, setSearchLessons] = useState("");
   const [selectedCategory, setSelectedCategory] = useState();
   // const lessons = nodes.filter(node => node.type === "lesson");
@@ -34,6 +35,10 @@ function Tree() {
     if (searchLessons !== "") setSearchLessons("");
     setSelectedCategory(item);
     if (JSON.stringify(item) === JSON.stringify(selectedCategory)) setSelectedCategory();
+  };
+
+  const handleZoomLeasson = (lesson) => {
+    setZoomLesson(lesson);
   };
 
   useEffect(() => {
@@ -120,13 +125,13 @@ function Tree() {
           <div className="row gutters-md">
             <div className="col-md-2 border border-info card">
               <h3 className="text-center card-header nowrap">Список уроков</h3>
-              {!isLoading ? <LessonsList lessons={filteredLessons}/> : <Loader />}
+              {!isLoading ? <LessonsList lessons={filteredLessons} onZoom={handleZoomLeasson}/> : <Loader />}
             </div>
             <div className="tree col-md-10">
               <ReactFlowProvider>
                 {!nodesStatusLoading
                   // ? <Flow sections={nodes} filteredLessons={filteredLessons} selectedCategory={selectedCategory} handleModal={handleModal}/>
-                  ? <Flow sections={nodes} handleModal={handleModal} filteredLessons={filteredLessons} selectedCategory={selectedCategory}/>
+                  ? <Flow sections={nodes} handleModal={handleModal} filteredLessons={filteredLessons} selectedCategory={selectedCategory} zoomLesson={zoomLesson}/>
                   : <Loader />}
               </ReactFlowProvider>
             </div>
