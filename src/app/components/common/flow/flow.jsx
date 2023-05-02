@@ -245,11 +245,11 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
     setEdges(leds);
   };
 
-  const handleMoveZoomCenterNode = (nodes, zoom) => {
+  const handleMoveZoomCenterNode = useCallback((nodes, zoom) => {
     const newPositionsNode = nodes.find(n => n.id === zoom)?.position;
     const { x: zoomX, y: zoomY } = newPositionsNode;
     setCenter(zoomX + 700, zoomY + 50, { zoom: 0.8, duration: 800 });
-  };
+  }, [zoom]);
 
   useEffect(() => {
     // console.log(zoomLesson);
@@ -259,16 +259,16 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
         [zoomLesson?.parent]: false
       }));
       setTimeout(() => {
-        setZoomLsn(zoomLesson.id);
+        setZoom(zoomLesson.id);
       }, 0);
     }
-  }, [zoomLesson, zoomLsn]);
+  }, [zoomLesson]);
 
   useEffect(() => {
     if (!zoomLsn) return;
-    setTimeout(() => {
-      handleMoveZoomCenterNode(nodes, zoomLsn);
-    }, 0);
+    // setTimeout(() => {
+    handleMoveZoomCenterNode(nodes, zoomLsn);
+    // }, 0);
   }, [nodes, zoomLsn]);
   useEffect(() => {
     handleMoveZoomCenterNode(nodes, zoom);
