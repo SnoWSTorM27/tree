@@ -1,7 +1,6 @@
 import React, { useCallback, useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import dagre from "dagre";
-import { useDispatch } from "react-redux";
 import ReactFlow, {
   addEdge,
   MiniMap,
@@ -27,8 +26,6 @@ import "./flow.css";
 import PhysicsNode from "../physicsNode";
 import { transformToNodes } from "../../../utils/transformToNodes";
 import { transformToEdges } from "../../../utils/transformToEdges";
-import { transformForResponse } from "../../../utils/transformForResponse";
-import { updateNodesList } from "../../../store/nodes";
 
 const nodeTypes = {
   section: SectionNode,
@@ -37,61 +34,38 @@ const nodeTypes = {
   physics: PhysicsNode
 };
 
-const flowKey = "dinamic-flow";
-
+const flowKey = "dinamic-flow1";
 const hide = (hidden) => (nodeOrEdge) => {
+  // console.log("Hidden", hidden);
   for (const prop in hidden) {
+    // console.log(prop, nodeOrEdge);
+    // if (!hidden[prop]) continue;
     if (nodeOrEdge.parent === prop || nodeOrEdge.target === prop) {
       nodeOrEdge.hidden = hidden[prop];
       return nodeOrEdge;
     }
   }
-  // if (nodeOrEdge.parent === nodeId) {
+  // if (nodeOrEdge.target === "2" || nodeOrEdge.target === "8" || (Number(nodeOrEdge.id) > 7)) {
   //   nodeOrEdge.hidden = hidden;
   //   return nodeOrEdge;
   // }
   return nodeOrEdge;
 };
-const blur = (search) => (nodeOrEdge) => {
-  if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13") return nodeOrEdge;
-  // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13" || nodeOrEdge.id === "8" || nodeOrEdge.id === "2" || nodeOrEdge.source === "2" || nodeOrEdge.source === "8" || nodeOrEdge.id === "1") return nodeOrEdge;
-  if (search) {
-    nodeOrEdge.style = { opacity: "0.3", borderColor: "#dbd514" };
-  } else {
-    nodeOrEdge.style = { opacity: "1" };
-  }
-  return nodeOrEdge;
-};
-// let section = "";
-// const filter = (items, count) => (nodeOrEdge) => {
-//   nodeOrEdge.style = { opacity: "1" };
-//   if (items.length === count) return nodeOrEdge;
-//   for (const lesson of items) {
-//     if (nodeOrEdge.id === lesson.id) return nodeOrEdge;
-//     // if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
-//     // if (nodeOrEdge.source === lesson.parent) {
-//     //   section = nodeOrEdge.target;
-//     //   console.log(section);
-//     //   return nodeOrEdge;
-//     // }
-//     // if (nodeOrEdge.id === section) return nodeOrEdge;
-//     // if (nodeOrEdge.source === section) return nodeOrEdge;
-//     // if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
-//   }
-//   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13") return nodeOrEdge;
-//   // if (nodeOrEdge.id === "13" || nodeOrEdge.source === "13" || nodeOrEdge.id === "8" || nodeOrEdge.id === "2" || nodeOrEdge.source === "2" || nodeOrEdge.source === "8" || nodeOrEdge.id === "1") return nodeOrEdge;
-//   if (items.length !== count) {
-//     nodeOrEdge.style = { opacity: "0.1" };
-//   }
-//   return nodeOrEdge;
-// };
+// const calculateCountChildren = (items) => {
 
+// }
 const filter = (items, count) => (nodeOrEdge) => {
   nodeOrEdge.style = { opacity: "1" };
   if (items.length === count) return nodeOrEdge;
   for (const lesson of items) {
-    if (nodeOrEdge.id === lesson.id) return nodeOrEdge;
-    if (nodeOrEdge.id === lesson.parent) return nodeOrEdge;
+    if (nodeOrEdge.id === lesson.id) {
+      return nodeOrEdge;
+    };
+    if (nodeOrEdge.id === lesson.parent) {
+      const countSearchChildren = items.filter(l => l.parent === lesson.parent).length;
+      nodeOrEdge.data.countSearchChildren = countSearchChildren;
+      return nodeOrEdge;
+    };
     if (nodeOrEdge.source === lesson.id) return nodeOrEdge;
     if (nodeOrEdge.source === lesson.parent) {
       return nodeOrEdge;
@@ -101,7 +75,7 @@ const filter = (items, count) => (nodeOrEdge) => {
     if (nodeOrEdge?.data?.name === "Физика") return nodeOrEdge;
   }
   if (items.length !== count) {
-    nodeOrEdge.style = { opacity: "0" };
+    nodeOrEdge.style = { opacity: "0.05" };
   }
   return nodeOrEdge;
 };
@@ -134,7 +108,7 @@ const getLayoutedElements = (nodes, edges, direction = "LR") => {
     // so it matches the React Flow node anchor point (top left).
     node.position = {
       x: -nodeWithPosition.x - nodeWidth / 2,
-      y: nodeWithPosition.y - nodeHeight / 2
+      y: nodeWithPosition.y + nodeHeight / 2
     };
 
     return node;
@@ -146,30 +120,31 @@ const getLayoutedElements = (nodes, edges, direction = "LR") => {
 const onInit = (reactFlowInstance) =>
   console.log("flow loaded:", reactFlowInstance);
 
-const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLesson }) => {
-  const dispatch = useDispatch();
-  const initObj = {};
+const defaultViewport = { x: 0, y: 0, zoom: 1.5 };
+
+const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLesson, isFilter, isSearch }) => {
   const initialNodes = transformToNodes(sections);
+  const initObj = {};
+  const countLessons = initialNodes.filter(node => node.type === "lesson").length;
   const edges1 = transformToEdges(sections, "1");
+  // const initialNodes = [...ini ...nodes1];
   const initialEdges = [...edges1];
   const nodesWithoutLessons = initialNodes.filter(node => node.type !== "lesson");
   const edgesWithoutLessons = initialEdges.filter(edge => edge.source.indexOf("lesson") === -1);
   const nodesWithLessons = initialNodes.filter(node => node.type === "lesson");
   const edgesWithLessons = initialEdges.filter(edge => edge.source.indexOf("lesson") !== -1);
-  const countLessons = initialNodes.filter(node => node.type === "lesson").length;
   const subsections = initialNodes.filter(node => node.type === "subsection");
   subsections.forEach(sub => {
     initObj[sub.id] = true;
   });
-  // const initialNodes = [...ini ...nodes1];
   const { layoutedNodes, layoutedEdges } = getLayoutedElements(
     nodesWithoutLessons,
     edgesWithoutLessons
   );
+
   const [nodes, setNodes, onNodesChange] = useNodesState(layoutedNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(layoutedEdges);
   const [hidden, setHidden] = useState(initObj);
-  const [search, setSearch] = useState(false);
   const [zoom, setZoom] = useState("Section_2");
   const [zoomLsn, setZoomLsn] = useState("");
   // const [rfInstance, setRfInstance] = useState(null);
@@ -179,16 +154,14 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
   // console.log(initialNodes);
 
   const onConnect = useCallback(
-    (params) => setEdges((eds) => addEdge(params, eds)),
+    (params) => setEdges((eds) => addEdge({ ...params, type: "floating" }, eds)),
     [setEdges]
   );
 
   const onSave = useCallback(() => {
     if (rfInstance) {
       const flow = rfInstance.toObject();
-      const nodes = flow.nodes;
-      const response = transformForResponse(sections, nodes);
-      dispatch(updateNodesList(response));
+      console.log(flow);
       localStorage.setItem(flowKey, JSON.stringify(flow));
     }
   }, [rfInstance]);
@@ -207,18 +180,6 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
 
     restoreFlow();
   }, [setNodes, setViewport]);
-
-  // useEffect(() => {
-  //   setNodes((nds) => nds.map(hide(hidden)));
-  //   setEdges((eds) => eds.map(hide(hidden)));
-  // }, [hidden]);
-  // useEffect(() => {
-  //   expandAndCollapseSubsections(hidden);
-  // }, [hidden]);
-  useEffect(() => {
-    setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
-    setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
-  }, [filteredLessons]);
 
   const totalNodes = [];
   const totalEdges = [];
@@ -246,6 +207,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
   };
 
   const handleMoveZoomCenterNode = useCallback((nodes, zoom) => {
+    if (!zoom) return;
     const newPositionsNode = nodes.find(n => n.id === zoom)?.position;
     const { x: zoomX, y: zoomY } = newPositionsNode;
     setCenter(zoomX + 700, zoomY + 50, { zoom: 0.8, duration: 800 });
@@ -253,7 +215,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
 
   useEffect(() => {
     // console.log(zoomLesson);
-    if (zoomLesson) {
+    if (!isFilter && !isSearch && zoomLesson) {
       setHidden((prevState) => ({
         ...prevState,
         [zoomLesson?.parent]: false
@@ -261,21 +223,51 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
       setTimeout(() => {
         setZoom(zoomLesson.id);
       }, 0);
+    } else if (zoomLesson) {
+      setTimeout(() => {
+        setZoom(zoomLesson.id);
+      }, 0);
     }
-  }, [zoomLesson]);
+  }, [zoomLesson, isFilter, isSearch]);
 
-  useEffect(() => {
-    if (!zoomLsn) return;
-    // setTimeout(() => {
-    handleMoveZoomCenterNode(nodes, zoomLsn);
-    // }, 0);
-  }, [nodes, zoomLsn]);
+  // useEffect(() => {
+  //   if (!zoomLsn) return;
+  //   // setTimeout(() => {
+  //   handleMoveZoomCenterNode(nodes, zoomLsn);
+  //   // }, 0);
+  // }, [nodes, zoomLsn]);
   useEffect(() => {
     handleMoveZoomCenterNode(nodes, zoom);
   }, [nodes, zoom]);
   useEffect(() => {
     expandAndCollapseSubsections(hidden);
   }, [hidden]);
+  useEffect(() => {
+    if (isFilter || isSearch) {
+      const mapOpened = filteredLessons.map(el => el.parent);
+      const unique = mapOpened.filter((e, i) => mapOpened.indexOf(e) === i);
+      unique.forEach(el => {
+        if (hidden[el]) {
+          setHidden((prevState) => ({
+            ...prevState,
+            [el]: false
+          }));
+        }
+      });
+    }
+  }, [isFilter, isSearch, filteredLessons]);
+  // useEffect(() => {
+  //   setNodes((nds) => nds.map(hide(hidden)));
+  //   setEdges((eds) => eds.map(hide(hidden)));
+  // }, [hidden]);
+  // useEffect(() => {
+  //   setNodes((nds) => nds.map(blur(search)));
+  //   setEdges((eds) => eds.map(blur(search)));
+  // }, [search]);
+  useEffect(() => {
+    setNodes((nds) => nds.map(filter(filteredLessons, countLessons)));
+    setEdges((eds) => eds.map(filter(filteredLessons, countLessons)));
+  }, [filteredLessons]);
 
   const handleClick = useCallback((e, node) => {
     if (node.type !== "lesson") {
@@ -308,6 +300,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
         onConnect={onConnect}
         onInit={onInit}
         nodeTypes={nodeTypes}
+        nodesDraggable={false}
         onNodeClick={(e, node) => handleClick(e, node)}
         fitView
         minZoom="0.1"
@@ -315,7 +308,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
         <MiniMap
           nodeStrokeColor={(n) => {
             if (n.style?.background) return n.style.background;
-            if (n.type === "lesson") return "green";
+            if (n.type === "lesson") return "#13f007";
             if (n.type === "section") return "#ad690a";
             if (n.type === "subsection") return "#ad690a";
             if (n.type === "physics") return "#000";
@@ -329,7 +322,7 @@ const Flow = ({ sections, handleModal, selectedCategory, filteredLessons, zoomLe
           }}
           nodeBorderRadius={2}
         />
-        <Controls showInteractive={true} />
+        <Controls showInteractive={false} />
         <Background color="#aaa" gap={16} />
         {/* <div style={{ position: "absolute", left: 10, top: 10, zIndex: 4 }}>
           <div>
@@ -359,7 +352,9 @@ Flow.propTypes = {
   filteredLessons: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   selectedCategory: PropTypes.string,
   handleModal: PropTypes.func,
-  zoomLesson: PropTypes.object
+  zoomLesson: PropTypes.object,
+  isFilter: PropTypes.bool,
+  isSearch: PropTypes.bool
 };
 
 // function Flow(props) {

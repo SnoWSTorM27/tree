@@ -123,15 +123,15 @@ function Tree() {
             </div>
           </div>
           <div className="row gutters-md">
-            <div className="col-md-2 border border-info card">
+            <div className="col-md-3 border border-info card">
               <h3 className="text-center card-header nowrap">Список уроков</h3>
               {!isLoading ? <LessonsList lessons={filteredLessons} onZoom={handleZoomLeasson}/> : <Loader />}
             </div>
-            <div className="tree col-md-10">
+            <div className="tree col-md-9">
               <ReactFlowProvider>
                 {!nodesStatusLoading
                   // ? <Flow sections={nodes} filteredLessons={filteredLessons} selectedCategory={selectedCategory} handleModal={handleModal}/>
-                  ? <Flow sections={nodes} handleModal={handleModal} filteredLessons={filteredLessons} selectedCategory={selectedCategory} zoomLesson={zoomLesson}/>
+                  ? <Flow sections={nodes} handleModal={handleModal} filteredLessons={filteredLessons} selectedCategory={selectedCategory} zoomLesson={zoomLesson} isFilter={!!selectedCategory} isSearch={!!searchLessons}/>
                   : <Loader />}
               </ReactFlowProvider>
             </div>
